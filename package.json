@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@glidejs/glide": "^3.5.2",
+    "bootstrap": "^5.2.0-beta1",
+    "chart.js": "^3.8.0"
+  }
+}
