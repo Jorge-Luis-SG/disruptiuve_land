@@ -1608,6 +1608,7 @@
                     font-size: 1.8rem;
                     letter-spacing: 2px;
                     padding: 5rem 0 1rem;
+                    
                     @media screen and (max-width:767px){
                         padding:1.5rem .8rem;
                    }
@@ -1623,11 +1624,14 @@
              // ACORDION  HIJO
              .learn-section-2-accordion-item-box{
                  height: 0;
+                 opacity: 0;
                  overflow: hidden;
-                 transition: all .5s; 
+                 transition: all 0s; 
              }
             .acordion-activo-padre.learn-section-2-accordion-item-box{
                 height: 100%;
+                opacity: 1;
+                transition: all 0s; 
                 .learn-section-2-accordion-sub{
                     &-item{
                         background-color:#FFFFFF50;
