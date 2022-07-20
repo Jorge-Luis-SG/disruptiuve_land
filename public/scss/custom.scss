@@ -1,0 +1,544 @@
+//CAMBIE EL COLOR QUE TRAE BOOSTRAP A UNO PROPIO
+$primary:#3A3A3A;
+
+//BREAKPOINTS 
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 767px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1500px
+);
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+:root{
+    font-size: 12px;
+}
+.row{
+    
+    @media screen and (max-width:767px){
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+//COLORES GLOBALES
+$primary-50:#3A3A3A50;
+$primary-80:#3A3A3A80;
+$border1: rgba(58, 58, 58, 0.13);
+$border2: #C8C8C8;
+
+
+
+//VARIABLES EN GENERAL
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-family: 'Gotham';
+    font-weight: 300;
+    color: $primary;
+}
+*{
+    color: $primary;
+    @media screen and (max-width:992px){
+        text-align: center;
+    }
+    
+}
+//FUENTES 
+
+%gbold{
+    font-family: 'Gotham';
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+%gbook{
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-size: 1.2rem;
+    
+}
+
+%glite{
+    font-family: 'Gotham';
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+
+//TITULOS
+
+%title1{
+    @extend %gbold;
+    font-size: 2.85rem;
+    letter-spacing: 1px;
+    margin: 12px 0;
+    @media screen and (max-width:992px){
+        text-align: center;
+        font-size: 3rem;
+    }
+}
+%title2{
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-size: 9rem;
+    line-height: 100px;
+    @media screen and (max-width:1400px){
+        font-size: 6rem;
+        line-height: 80px;
+    }
+    @media screen and (max-width:992px){
+        font-size: 3rem;
+        text-align: center;
+        line-height: 40px;
+        letter-spacing: 1.5px;
+        margin: auto;
+        justify-content: center;
+    }
+    @media screen and (max-width:500px){
+        font-size: 2.7rem;
+    }
+
+}
+%title3{
+    @extend %gbook;
+    font-size: 1.80rem;
+    @media screen and (max-width:992px){
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+}
+%subtitle{
+    @extend %title1;
+    @extend %gbook;
+    margin: 0;
+    margin-top: -15px;
+
+}
+
+%text-portfolio-h5{
+    font-size: 2rem;
+    @extend %gbook;
+}
+
+//BOTONES
+
+//BOTON DE READ MORE
+%btn1{
+    padding: 7px 0;
+    width: 155px;
+    @extend %gbook;
+    background-color: $primary;
+    border-radius: 4px;
+    color: #fff;
+    @media screen and (max-width:1400px){
+        padding: 11px 0;
+        width: 170px;
+        border-radius: 0.8rem;
+    }
+}
+
+
+
+//BACKGROUNDS / FONDOS
+%bg-image1{
+    background-image: url("../images/fondo1.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-y: 180px;
+}
+
+
+//ESPACIO DESCRIPCION / PARRAFOS 
+%descriptions-1{
+    margin: 35px 0;
+    @media screen and (max-width:992px){
+        margin:4rem auto;
+        line-height: 25px;
+        font-size: 1.2rem;
+    }
+}
+//MAXIMO DE PIXELES GLOBALES CONTAINERS 
+
+%max-width-1{
+    max-width: 1700px;
+    margin:0 auto;
+    width: 85%;
+    @media screen and (max-width:992px){
+        width: 90%;
+        margin: auto;
+
+    }
+}
+
+%max-width-m{
+
+    @media screen and (max-width:767px){
+        max-width: 500px;
+        width: 75%;
+        margin:0 auto;
+    }
+}
+
+//padding containers 
+%padding-width-1{
+    padding:0 12rem;
+    transition: .3 all;
+    @media screen and (max-width:1350px){
+        padding:0 9rem;
+    }
+    @media screen and (max-width:992px){
+        padding:0 !important;
+    }
+}
+
+//padding
+$padding-movil:4rem;
+
+
+//carusel
+%c-item{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+%c-arrows{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #fff;
+    opacity: 20%;
+    z-index: 5;
+
+}
+
+%c-arrow-left{
+    left:0;
+}
+%c-arrow-right{
+    right:0;
+}
+
+%c-blur{
+    filter: blur(6px);
+    opacity: .7;
+    transition: .3s linear;
+}
+%c-blur-active{
+    filter: blur(0px);
+    opacity: 1;
+    transition: .3s linear;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+// ACORDION TEMPLATE 
+%acordion-item{
+    border-bottom: 1px solid $border1;
+    margin-top: 4rem;
+    p{
+        overflow: hidden;
+        height: 0;
+        opacity: 0;
+    }
+    @media screen and (max-width:992px){
+        p{
+        text-align: left !important;
+
+        }
+    }
+}
+%acordion-title{
+    padding-bottom: 0 !important;  
+    cursor: pointer;
+    text-align: left;
+    h3{
+        font-weight: normal;
+        font-size: 1.7rem;
+        text-align: center;
+        max-width: 965px;
+        transition: all .5s;
+        margin: 0;
+    }
+    img{
+        content: url("../images/plus.svg");
+        width: 25px;
+        transition: all 0s;
+    }
+    @media screen and (max-width:767px){
+        padding-bottom: 0 !important;  
+        cursor: pointer;  
+        h3{
+            font-size: 1.4rem;
+            text-align: left;
+        }
+        img{
+            width: 21px;
+        }
+    }
+}
+%acordion-activo{
+    height:100%;
+    padding: 2rem 0;
+    transition: all .5s ease;
+    opacity: 1;
+}
+%acordion-img-activo{
+    content: url("../images/minus.svg") !important;
+    transition: all 0s;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 404px;
+    @media screen and (max-width:650px){
+        width: 300px;
+    }
+  }
+  
+  .input {
+    box-sizing: border-box;
+    color: #191919;
+    padding: 15px 15px 15px 35px;
+    width: 100%;
+  }
+  .input-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: unset;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+
+  //FUENTES
+
+  @font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Black.eot');
+    src: url('../fonts/Gotham-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Black.woff2') format('woff2'),
+        url('../fonts/Gotham-Black.woff') format('woff'),
+        url('../fonts/Gotham-Black.ttf') format('truetype'),
+        url('../fonts/Gotham-Black.svg#Gotham-Black') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Bold.eot');
+    src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff'),
+        url('../fonts/Gotham-Bold.ttf') format('truetype'),
+        url('../fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Light.eot');
+    src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Light.woff2') format('woff2'),
+        url('../fonts/Gotham-Light.woff') format('woff'),
+        url('../fonts/Gotham-Light.ttf') format('truetype'),
+        url('../fonts/Gotham-Light.svg#Gotham-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Book.eot');
+    src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Book.woff2') format('woff2'),
+        url('../fonts/Gotham-Book.woff') format('woff'),
+        url('../fonts/Gotham-Book.ttf') format('truetype'),
+        url('../fonts/Gotham-Book.svg#Gotham-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Medium.eot');
+    src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Medium.woff2') format('woff2'),
+        url('../fonts/Gotham-Medium.woff') format('woff'),
+        url('../fonts/Gotham-Medium.ttf') format('truetype'),
+        url('../fonts/Gotham-Medium.svg#Gotham-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+%parallax-a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+}
+// PARALLAX
+.parallax{
+    width: 100%;
+    height: 680px;
+    position: relative;
+    overflow: hidden;
+    
+    &-content{
+        @extend %parallax-a;
+            &-img{
+                @extend %parallax-a;
+                background-repeat: no-repeat;
+                background-position: bottom center;
+                background-size:cover;
+            }
+            &-text{
+                @extend %parallax-a;
+                opacity:.9;
+                &-title{
+                    position: absolute;
+                    top: 32%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    font-family: 'Gotham';
+                    font-weight: 700;
+                    font-size: 12rem;
+                    background-color: #fff;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color:transparent;
+                    min-width: 1305px;
+                    text-align: center;
+                    line-height: 120px;
+                    @media screen and (max-width:1360px){
+                        font-size: 10rem;
+                        line-height: 105px;
+                    }
+                    @media screen and (max-width:1130px){
+                        font-size: 8rem;
+                        line-height: 85px;
+                    }
+                    @media screen and (max-width:900px){
+                        font-size: 6rem;
+                        line-height: 65px;                        
+                    }
+                    @media screen and (max-width:680px){
+                        font-size: 4rem;
+                        line-height: 45px;                        
+                    }
+                    @media screen and (max-width:450px){
+                        font-size: 3rem;
+                        line-height: 35px;                        
+                    }
+
+                }
+            &-parrafo{
+                position: absolute;
+                top: 47%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-family: "Gotham";
+                font-size: 1.2rem;
+                max-width: 650px;
+                width: 90%;
+                color: #fff;
+                text-align: center;
+                @media screen and (max-width:1360px){
+                    max-width: 550px;
+
+                }
+                @media screen and (max-width:680px){
+                    max-width: 450px;
+
+                }
+            }
+            }
+
+    }
+}
+
+.home-bg{
+    height: 993px;
+    @media screen and (max-width:900px){
+        height: 650px;
+    }
+    @media screen and (max-width:680px){
+        height: 400px;
+    }
+}
+
+.home-bg .parallax-content-text-title{
+    top: 42%;
+}
+.about-bg .parallax-content-text-parrafo{
+    @media screen and (max-width:1360px){
+        top: 52%
+    }
+    @media screen and (max-width:1130px){
+        top: 46%;
+
+    }
+    @media screen and (max-width:900px){
+        top: 44%;           
+    }
+    @media screen and (max-width:680px){  
+        max-width: 330px;                
+    }
+    @media screen and (max-width:450px){
+        top: 43%;                      
+    }
+}
+.portfolio .parallax-content-text-parrafo{
+    top: 54%;
+    @media screen and (max-width:1360px){
+        top: 52%;
+
+    }
+    @media screen and (max-width:1130px){
+        top: 49%;
+
+    }
+    @media screen and (max-width:900px){
+        top: 46%;           
+    }
+    @media screen and (max-width:680px){
+        top: 42%;                    
+    }
+    @media screen and (max-width:450px){
+        top: 40.5%;                      
+    }
+}
+.investment .parallax-content-text-parrafo{
+    top: 45%;
+    max-width: 400px;
+}
