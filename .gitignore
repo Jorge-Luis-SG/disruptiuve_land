@@ -64,3 +64,14 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+node_modules/
+firebase/
+y/
+public/scss/custom.scss
+public/scss/custom.css.map
+public/scss/header_footer.scss
+public/scss/header_footer.css.map
+public/scss/main.scss
+public/scss/main.css.map
+
