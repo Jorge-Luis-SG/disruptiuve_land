@@ -1,0 +1,47 @@
+@import "../../scss/custom";
+
+
+.dashboard-home{
+    &-section1{
+        &-box1{
+            &-carousel{
+                &-container{
+                    position: relative;
+                    &-list{
+                        overflow: hidden;
+                        &-item{
+                            flex-direction: column;
+                            @extend %c-item;
+                        }
+                    }
+                    &-return, &-next{
+                        @extend %c-arrows;
+                        &:hover{
+                            opacity: 100%
+                        }
+                    }
+                    &-return{
+                        @extend %c-arrow-left;
+                    }
+                    &-next{
+                        @extend %c-arrow-right;
+                    }
+                    .glide__slide{
+                        filter: blur(6px) grayscale(1);
+                        width: 300px !important;
+                        padding: 2.5rem;
+                        @extend %c-blur;
+                    }
+                    .glide__slide.center{
+                        @extend %c-blur-active;
+                        
+                        background: red;
+                    }
+                }
+            }
+        }
+        &-box2{
+            
+        }
+    }
+}

@@ -240,12 +240,12 @@ $padding-movil:4rem;
 %c-blur{
     filter: blur(6px);
     opacity: .7;
-    transition: .3s linear;
+    transition: all .3s;
+    
 }
 %c-blur-active{
     filter: blur(0px);
     opacity: 1;
-    transition: .3s linear;
 }
 
 body{
