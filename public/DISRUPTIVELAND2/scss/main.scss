@@ -2,16 +2,74 @@
 
 
 .dashboard-home{
+        background-image: url(../../images/home.png);
+        background-position-y: 62vh;
+        background-repeat: no-repeat;
+        @media screen and (max-width:1200px){
+            background-position-y: 120vh;
+        }
     &-section1{
+        height: 100vh;
+        @media screen and (max-width:1200px){
+            height: 100%;
+        }
         &-box1{
+            h5{
+                font-size:1.4rem;
+                @extend %gbook;
+                margin: 0
+            }
+            h3{
+                @extend %title1;
+                margin: -.5rem 0 1rem 0;
+            }
             &-carousel{
+                max-width:637px;
+                min-width:600px;
+                margin:auto;
+                @media screen and (max-width:650px){
+                    max-width: 400px;
+                    min-width: 290px;
+                }
                 &-container{
                     position: relative;
                     &-list{
                         overflow: hidden;
+                        height: 370px;
+                        align-items: flex-start;
+                        display: flex;
+                        @media screen and (max-width:1200px){
+                            height: 100%;
+
+                        }
                         &-item{
                             flex-direction: column;
                             @extend %c-item;
+                            h4{
+                                margin-right: auto;
+                                @extend %gbold;
+                                font-size: 1.6rem;
+                            }
+                            .dashboard-home-carousel{
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                margin-top: 2.5rem;
+                                .dashboard-more-info-btn{
+                                    padding: 5px 0;
+                                    width: 115px;
+                                    background-color: #ffffff;
+                                    color: $primary;
+                                    @extend %gbook;
+                                    @extend %btn1;
+                                }
+                                .dashboard-invest-btn{
+                                    padding: 5px 0;
+                                    width: 115px;
+                                    @extend %gbook;
+                                    @extend %btn1;
+                                }
+                            }
                         }
                     }
                     &-return, &-next{
@@ -28,20 +86,63 @@
                     }
                     .glide__slide{
                         filter: blur(6px) grayscale(1);
-                        width: 300px !important;
-                        padding: 2.5rem;
                         @extend %c-blur;
+                        margin-right: 2rem;
+                        @media screen and (min-width:650px){
+                            width: 220px !important;
+                        }
+
                     }
                     .glide__slide.center{
+                        // transform: scale(1.2);
+                        background: #ffffff65;
+                        padding: 2.8rem;
+                        margin-right: -4.5rem;
+                        margin-left: -3rem;
+                        z-index: 10;
                         @extend %c-blur-active;
-                        
-                        background: red;
+                        @media screen and (min-width:650px){
+                            width: 350px !important;
+                        }
                     }
                 }
             }
+            @media screen and (max-width:1200px){
+                margin-bottom: 15rem;
+                .glide__slide{
+                    margin: 0;
+                }
+                .glide__slide.center{
+                    margin: 0;
+            }
+        }
         }
         &-box2{
-            
+            max-width:540px;
+            width: 87%;
+            &-title{
+                font-size: 1.55rem;
+                margin-bottom: 2rem;
+                @extend %gbold;
+            }
+            p{
+                font-size: 1.35rem;
+                text-align: center;
+                margin: 4rem 0 2rem;
+                line-height: 20px;
+            }
+            img{
+                max-width: 420px;
+                width: 90%;
+            }
+            .btn{
+                padding: 8px 0;
+                font-weight: 700;
+                @extend %btn1;
+            }
+            @media screen and (max-width:1200px){
+                margin: 4rem 0;
+            }
         }
     }
 }

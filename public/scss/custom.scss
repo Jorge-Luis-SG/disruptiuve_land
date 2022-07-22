@@ -147,6 +147,11 @@ p{
         border-radius: 0.8rem;
     }
 }
+%btn2{
+    @extend %btn1;
+    color: $primary;
+}
+
 
 
 
