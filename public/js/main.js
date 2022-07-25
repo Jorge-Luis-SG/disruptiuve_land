@@ -305,12 +305,7 @@ portfolioGrid1.onclick =() =>{
     porfolio1[i].classList.remove('portfolio-filter-all');
   })
 }
-portfolioGrid2.onclick =() =>{
-  console.log("HOLA")
-}
-portfolioGrid3.onclick =() =>{
-  console.log("HOLA")
-}
+ 
 
 
 // portfolioGrid2.onclick=()=>{

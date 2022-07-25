@@ -11,49 +11,200 @@
 </head>
 <body>
     <div class="d-flex">
-        <div class="menu-lateral-globlal">
-            <div class="menu-lateral-globlal-content">
-                <img id="dash-img-header-logo" src="../images/logo-header.svg" alt="DISRUPTIVELAND">
-                <img id="dash-img-perfil" src="../images/dash-perfil-img.png" alt="Foto de perfil">
+        <div class="menu-lateral-globlal" id="menu-lateral-active">
+            <div class="d-flex flex-column align-items-center menu-lateral-globlal-content">
+                <img id="dash-img-header-logo" class="d-none d-lg-block" src="../images/logo-header.svg" alt="DISRUPTIVELAND">
+                <img id="dash-img-header-logo2" class="d-block d-lg-none" src="../images/logo-header.svg" alt="DISRUPTIVELAND">
+                <div class="menu-lateral d-flex justify-content-center align-items-center">
+                    <img class="dash-open-menu" src="../images/menu-lateral.svg" alt="">
+                </div>
+                <div class="menu-lateral-globlal-content-img-perfil">
+                    <img id="dash-img-perfil" src="../images/dash-perfil-img.png" alt="Foto de perfil">
+                    <div id="dash_perfil-status"></div>
+                </div>
+                
                 <h4 class="dash-name-user">Patrick Matthews</h4>
                 <h4 class="dash-name-rank">Admin</h4>
-                <ul>
-                    <li><img src="../images/dash-investment.svg" alt="">Investment</li>
-                    <li><img src="../images/dash-icon-people.svg" alt="">Investor</li>
-                    <li><img src="../images/dash-setting.svg" alt="">Settings</li>
-                    <li><img src="../images/dash-logout.svg" alt="">Log out</li>
-                </ul>
+                <ul class="dash-menu-general">
+                    <a href="#" class="dash-menu-general-link  d-flex justify-content-between">
+                        <li>
+                            <img class="icons-menu-general" src="../images/dash-investment.svg" alt="">
+                            <span class="dash-menu-general-text">Investment</span>
+                        </li>
+                         <img class="dash-arrow-menu" src="../images/arrow-bottom.svg" alt="">
+                        </a>
 
+                    <a href="#" class="dash-menu-general-link-hover d-flex justify-content-between">
+                        <li>
+                            <img class="icons-menu-general" src="../images/dash-icon-people.svg" alt="">
+                            <span class="dash-menu-general-text">Investor</span>
+                        </li>
+                         <img class="dash-arrow-menu" src="../images/arrow-bottom.svg" alt="">
+                        </a>
+
+                    <a href="#" class="dash-menu-general-link-hover d-flex justify-content-between">
+                        <li>
+                            <img class="icons-menu-general" src="../images/dash-setting.svg" alt="">
+                            <span class="dash-menu-general-text">Settings</span>
+                        </li>
+                         <img class="dash-arrow-menu" src="../images/arrow-bottom.svg" alt="">
+                        </a>
+
+                    <a href="#" class="dash-menu-general-link-hover d-flex justify-content-between">
+                        <li>
+                            <img class="icons-menu-general" src="../images/dash-logout.svg" alt="">
+                            <span class="dash-menu-general-text">Log out</span>
+                        </li>
+                         <img class="dash-arrow-menu" src="../images/arrow-bottom.svg" alt="">
+                        </a>
+                </ul>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="dash-investment-dad">
             <header>
-                <div class="dash-header-box1">
-                    <img src="../images/dash-home-icon.svg" alt="Home">
-                    <a href="#">Dashboard</a>
+                <div class="dash-header">
+                    <div class="dash-header-box1">
+                        <img  src="../images/dash-home-icon.svg" alt="Home">
+                        <a href="#" >Dashboard</a>
+                    </div>
+                    <div class="dash-header-box2">
+                        <a class="dash-header-box2-btn2">
+                            <img src="../images/wallet.svg" alt="Connect Wallet">
+                            Connect Wallet
+                        </a>
+                    </div>
                 </div>
-                <div class="dash-header-box2"></div>
             </header>
-            <main>
-                <div class="container-fluid">
-                    <div class="row dash-banner-investment-box1">
-                        <div class="col-12 col-lg-6 dash-banner-investment-box1">
+            <main class="container-fluid px-0 dash-investment">
+                <div class="dash-banner-investment">
+                    <div class="row dash-banner-investment-box1-content">
+                        <div class="col-12 col-xl-6 text-center text-xl-start mb-4 mb-xl-0 dash-banner-investment-box1">
                             <h5 class="dash-banner-investment-box1-feature">Featured</h5>
                             <h3 class="dash-banner-investment-box1-title">METAVERSE</h3>
-                            <div class="dash-banner-investment-box1-btn"
+                            <div class="dash-banner-investment-box1-btn d-flex flex-column flex-sm-row justify-content-center justify-content-sm-center justify-content-xl-start">
                                 <a class="btn btn-light dash-banner-investment-box1-btn-1" href="#">More Info</a>
                                 <a class="btn btn-primary dash-banner-investment-box1-btn-2" href="#">Invest</a>
                             </div>
                         </div>
-                        <div class="col-12 col-lg-6  dash-banner-investment-box2">
+                        <div class="col-12 col-xl-6 d-flex align-items-center justify-content-center dash-banner-investment-box2 ">
                             <p>
                                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
                             </p>
                         </div>
                     </div>
                 </div>
+                <div class="row  mt-4 dash-investment-section-cards">
+                    <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 dash-investment-section-cards-box">
+                        <div class="dash-investment-section-cards-box-item flex-column">
+                            <h4>Proposal 1</h4>
+                            <img src="../images/portfolio1.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <div class="dashboard-home-carousel d-flex justify-content-between">
+                                <a class="btn btn-light dashboard-more-info-btn" href="#">More Info</a>
+                                <a class="btn btn-primary dashboard-invest-btn" href="#">Invest</a>
+                            </div>                                          
+                        </div>
+                    </div> 
+                    <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 dash-investment-section-cards-box">
+                        <div class="dash-investment-section-cards-box-item flex-column">
+                            <h4>Proposal 1</h4>
+                            <img src="../images/portfolio1.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <div class="dashboard-home-carousel d-flex justify-content-between">
+                                <a class="btn btn-light dashboard-more-info-btn" href="#">More Info</a>
+                                <a class="btn btn-primary dashboard-invest-btn" href="#">Invest</a>
+                            </div>                                          
+                        </div>
+                    </div>   
+                    <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 dash-investment-section-cards-box">
+                        <div class="sold-investment bg-primary position-absolute">[ SOLD ]</div>
+                        <div class="dash-investment-section-cards-box-item blur-cards flex-column">
+                            <h4>Proposal 1</h4>
+                            <img src="../images/portfolio1.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <div class="dashboard-home-carousel d-flex justify-content-between">
+                                <a class="btn btn-light dashboard-more-info-btn" href="#">More Info</a>
+                                <a class="btn btn-primary dashboard-invest-btn" href="#">Invest</a>
+                            </div>                                          
+                        </div>
+                    </div> 
+                    <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 dash-investment-section-cards-box">
+                        <div class="sold-investment bg-primary position-absolute">[ SOLD ]</div>
+                        <div class="dash-investment-section-cards-box-item blur-cards flex-column">
+                            <h4>Proposal 1</h4>
+                            <img src="../images/portfolio1.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <div class="dashboard-home-carousel d-flex justify-content-between">
+                                <a class="btn btn-light dashboard-more-info-btn" href="#">More Info</a>
+                                <a class="btn btn-primary dashboard-invest-btn" href="#">Invest</a>
+                            </div>                                          
+                        </div>
+                    </div> 
+                    <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 dash-investment-section-cards-box">
+                        <div class="sold-investment bg-primary position-absolute">[ SOLD ]</div>
+                        <div class="dash-investment-section-cards-box-item blur-cards flex-column">
+                            <h4>Proposal 1</h4>
+                            <img src="../images/portfolio1.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <div class="dashboard-home-carousel d-flex justify-content-between">
+                                <a class="btn btn-light dashboard-more-info-btn" href="#">More Info</a>
+                                <a class="btn btn-primary dashboard-invest-btn" href="#">Invest</a>
+                            </div>                                          
+                        </div>
+                    </div> 
+                    <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 dash-investment-section-cards-box">
+                        <div class="sold-investment bg-primary position-absolute">[ SOLD ]</div>
+                        <div class="dash-investment-section-cards-box-item blur-cards flex-column">
+                            <h4>Proposal 1</h4>
+                            <img src="../images/portfolio1.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <div class="dashboard-home-carousel d-flex justify-content-between">
+                                <a class="btn btn-light dashboard-more-info-btn" href="#">More Info</a>
+                                <a class="btn btn-primary dashboard-invest-btn" href="#">Invest</a>
+                            </div>                                          
+                        </div>
+                    </div> 
+                    <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 dash-investment-section-cards-box">
+                        <div class="sold-investment bg-primary position-absolute">[ SOLD ]</div>
+                        <div class="dash-investment-section-cards-box-item blur-cards flex-column">
+                            <h4>Proposal 1</h4>
+                            <img src="../images/portfolio1.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <div class="dashboard-home-carousel d-flex justify-content-between">
+                                <a class="btn btn-light dashboard-more-info-btn" href="#">More Info</a>
+                                <a class="btn btn-primary dashboard-invest-btn" href="#">Invest</a>
+                            </div>                                          
+                        </div>
+                    </div>  
+                    <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 dash-investment-section-cards-box">
+                        <div class="sold-investment bg-primary position-absolute">[ SOLD ]</div>
+                        <div class="dash-investment-section-cards-box-item blur-cards flex-column">
+                            <h4>Proposal 1</h4>
+                            <img src="../images/portfolio1.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <div class="dashboard-home-carousel d-flex justify-content-between">
+                                <a class="btn btn-light dashboard-more-info-btn" href="#">More Info</a>
+                                <a class="btn btn-primary dashboard-invest-btn" href="#">Invest</a>
+                            </div>                                          
+                        </div>
+                    </div> 
+                    <div class="col-12 col-sm-6 col-xl-4 col-xxl-3 dash-investment-section-cards-box">
+                        <div class="sold-investment bg-primary position-absolute">[ SOLD ]</div>
+                        <div class="dash-investment-section-cards-box-item blur-cards flex-column">
+                            <h4>Proposal 1</h4>
+                            <img src="../images/portfolio1.png" alt="">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <div class="dashboard-home-carousel d-flex justify-content-between">
+                                <a class="btn btn-light dashboard-more-info-btn" href="#">More Info</a>
+                                <a class="btn btn-primary dashboard-invest-btn" href="#">Invest</a>
+                            </div>                                          
+                        </div>
+                    </div>                       
+                </div>
             </main>
         </div>
     </div>
+<script src="./js/main.js"></script>
+
 </body>
 </html>

@@ -22,3 +22,25 @@ window.addEventListener('load', function(){
           ]
     })
 })
+
+
+// DASH MENU LATERAL
+
+
+let menu_lateral = document.querySelectorAll('.dash-open-menu');
+let menu_lateralContent = document.querySelector('.menu-lateral-globlal');
+menu_lateral.forEach((menu, i) =>{
+  menu_lateral[i].onclick = () =>{
+    menu_lateralContent.classList.toggle("dash-menu-active")
+    document.getElementById("dash-header-open-movil").classList.toggle('dash-change-menu');
+    document.querySelector('.dash-header').classList.toggle('dash-change-menu-header');
+  }
+})
+ 
+
+
+let menu_lateralStatus = document.getElementById('dash_perfil-status');
+menu_lateralStatus.onclick = () =>{
+  menu_lateralStatus.classList.toggle("dash_perfil-status")
+  
+}
