@@ -30,9 +30,15 @@ $primary-80:#3A3A3A80;
 $border1: rgba(58, 58, 58, 0.13);
 $border2: #C8C8C8;
 $dash-status:#7DD61D;
+$dash-status-1-10:#7DD61D10;
+$dash-status2:#50B5FF;
+$dash-status2-10:#50B5FF10;
+$dash-status3:#FC5A5A;
+$dash-status3-10:#FC5A5A10;
 $dash-menu-color1:#C8C8C850;
 $dash-fondo:#F8F8F8;
 $dash-fondoWhite65:#ffffff65;
+
 
 
 
@@ -44,7 +50,7 @@ a{
     text-decoration: none;
 }
 p{
-    font-size: 1rem;
+    font-size: 1.06rem;
     letter-spacing: 1px;
     font-family: 'Gotham';
     font-weight: 300;
@@ -93,8 +99,8 @@ p{
 %title2{
     font-family: 'Gotham';
     font-weight: 700;
-    font-size: 9rem;
-    line-height: 100px;
+    font-size: 11rem;
+    line-height: 110px;
     @media screen and (max-width:1400px){
         font-size: 6rem;
         line-height: 80px;
@@ -125,7 +131,6 @@ p{
     @extend %title1;
     @extend %gbook;
     margin: 0;
-    margin-top: -15px;
 
 }
 
@@ -557,6 +562,15 @@ body{
 
 // A PARTIR DE AQUI ES LA SEGUNDA PAGINA 
 
+// MAIN
+%dashMain{
+    background-color:$dash-fondo;
+    padding: 5rem !important;
+    @media screen and(max-width:767px){
+        padding:5rem 1rem !important;
+    }
+}
+
 %dash-more-info-btn{
     padding: 4.5px 0;
     width: 105px;
@@ -579,3 +593,16 @@ body{
     font-size: 1.6rem;
 }
 
+
+// NOTIFICACION
+%notification{
+    position: absolute;
+    width: 26px;
+    height: 23px;
+    border-radius: 0.9rem;
+    background-color: $dash-status3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}

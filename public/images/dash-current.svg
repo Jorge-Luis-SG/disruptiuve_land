@@ -1,0 +1,15 @@
+<svg id="call_made" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Mask" d="M5,0V2h6.59L0,13.59,1.41,15,13,3.41V10h2V0Z" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_25" data-name="Grupo 25">
+    <path id="Mask-2" data-name="Mask" d="M5,0V2h6.59L0,13.59,1.41,15,13,3.41V10h2V0Z" fill="none"/>
+    <g id="Enmascarar_grupo_25" data-name="Enmascarar grupo 25" clip-path="url(#clip-path)">
+      <g id="Your_color_3" transform="translate(-17 -18)">
+        <rect id="Colors_Your_color_3" data-name="Colors/Your_color_3" width="50" height="50" fill="#7dd61d"/>
+      </g>
+    </g>
+  </g>
+</svg>

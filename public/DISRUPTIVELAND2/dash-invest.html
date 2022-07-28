@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/custom.css">
+    <link rel="stylesheet" href="./scss/main.css?v4">
+    <link rel="shortcut icon" href="../images/fav-icon.jpg">
+    <title>DISRUPTIVELAND</title>
+</head>
+<body>
+    <div class="d-flex">
+        <div class="menu-lateral-globlal" id="menu-lateral-active">
+            <div class="d-flex flex-column align-items-center menu-lateral-globlal-content">
+                <img id="dash-img-header-logo" class="d-none d-lg-block" src="../images/logo-header.svg" alt="DISRUPTIVELAND">
+                <img id="dash-img-header-logo2" class="d-block d-lg-none" src="../images/logo-header.svg" alt="DISRUPTIVELAND">
+                <div class="menu-lateral d-flex justify-content-center align-items-center">
+                    <img class="dash-open-menu" src="../images/menu-lateral.svg" alt="">
+                </div>
+                <div class="menu-lateral-globlal-content-img-perfil">
+                    <img id="dash-img-perfil" src="../images/dash-perfil-img.png" alt="Foto de perfil">
+                    <div id="dash_perfil-status"></div>
+                </div>
+                
+                <h4 class="dash-name-user">Patrick Matthews</h4>
+                <h4 class="dash-name-rank">Admin</h4>
+                <ul class="dash-menu-general">
+                    <a href="./dash-investment.html" class="dash-menu-general-link-hover  d-flex justify-content-between">
+                        <li>
+                            <img class="icons-menu-general" src="../images/dash-investment.svg" alt="">
+                            <span class="dash-menu-general-text">Investment</span>
+                        </li>
+                         <img class="dash-arrow-menu" src="../images/arrow-bottom.svg" alt="">
+                        </a>
+
+                    <a href="./dash-investor.html" class="dash-menu-general-link-hover d-flex justify-content-between">
+                        <li>
+                            <img class="icons-menu-general" src="../images/dash-icon-people.svg" alt="">
+                            <span class="dash-menu-general-text">Investor</span>
+                        </li>
+                         <img class="dash-arrow-menu" src="../images/arrow-bottom.svg" alt="">
+                        </a>
+
+                    <a href="./dash-perfil.html" class="dash-menu-general-link-hover d-flex justify-content-between">
+                        <li>
+                            <img class="icons-menu-general" src="../images/dash-setting.svg" alt="">
+                            <span class="dash-menu-general-text">Settings</span>
+                        </li>
+                         <img class="dash-arrow-menu" src="../images/arrow-bottom.svg" alt="">
+                        </a>
+
+                    <a href="#" class="dash-menu-general-link-hover d-flex justify-content-between">
+                        <li>
+                            <img class="icons-menu-general" src="../images/dash-logout.svg" alt="">
+                            <span class="dash-menu-general-text">Log out</span>
+                        </li>
+                         <img class="dash-arrow-menu" src="../images/arrow-bottom.svg" alt="">
+                        </a>
+                </ul>
+            </div>
+        </div>
+        <div class="dash-investment-dad">
+            <header>
+                <div class="dash-header">
+                    <div class="dash-header-box1">
+                        <img  src="../images/dash-home-icon.svg" alt="Home">
+                        <a href="#" >Dashboard</a>
+                    </div>
+                    <div class="dash-header-box2">
+                        <a class="dash-header-box2-btn2" href="#">
+                            <img src="../images/wallet.svg" alt="Connect Wallet">
+                            Connect Wallet
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <div class="connect-wallet-options">
+                <div class="position-relative connect-wallet-options-div">
+                    <div class="d-flex justify-content-end">
+                        <img id="btn-connect-close" src="../images/close-menu.svg" alt="" class="connect-wallet-options-close">
+                    </div>
+                    <h3 class="text-center">Connect your wallet</h3>
+                    <ul>
+                        <a href="#"><li><img src="../images/wallet1.svg" alt="">Wallet 1</li></a>
+                        <a href="#"><li><img src="../images/metamask.svg" alt="">Metamask</li></a>
+                        <a href="#"><li><img src="../images/wallet-connect.svg" alt="">Walletconnect</li></a>
+                        <a href="#"><li><img src="../images/trust-wallet.svg" alt="">Trust Wallet</li></a>
+                    </ul>
+                </div>
+            </div>
+            <main class="container-fluid px-0 dash-investment">
+                <div class="dash-invest-organic">
+                    <h3 class=" text-center">Organic Farm</h3>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 d-flex flex-column dash-invest justify-content-center position-relative">
+                        <img class="" src="../images/portfolio3.png" alt="">
+                        <div class="dash-invest-content">
+                            <h3>Limited Sale</h3>
+                            <p class="dash-invest-content-info">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                            <p class="dash-invest-content-data"><span>Minted NFT </span> (617/5000)</p>
+                            <p class="dash-invest-content-data"><span>Limited Mint Date </span> July 31 - 12 AM EST</p>
+                            <p class="dash-invest-content-data"><span>Price </span> 100 USD</p>
+
+                            <div class="mint-set-dash-invest d-flex justify-content-between align-items-center">
+                                <div class="d-flex justify-content-between align-items-center mint-set-dash-invest-box1">
+                                    <span class="mint-count--">-</span>
+                                    <span class="">1</span>
+                                    <span class="mint-count++">+</span>
+
+                                </div>
+                                <div class="mint-set-dash-invest-box2">
+                                    <a class="btn btn-primary" href="#">Set Max</a>
+                                </div>
+                            </div>
+                            <div class="mint-set-dash-invest2">
+                                <div class="mint-set-dash-invest2-box1">
+                                    <select name="select">
+                                        <option value="value1" selected>Decimal</option>
+                                        <option value="value1">Value 1</option>
+                                        <option value="value2">Value 2</option>
+                                        <option value="value3">Value 3</option>
+                                      </select>
+                                </div>
+                            </div>
+                            <p class="total-mint-dash-invest-1 text-end">100.1200 - DECIMAL6</p>
+                            <p class="total-mint-dash-invest-1 text-end">100 USD</p>
+                            <hr>
+                            <a href="#" class="dash-btn-mint btn btn-primary">MINT</a>
+
+
+                        </div>
+                    </div>
+                </div>
+                 
+            </main>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>

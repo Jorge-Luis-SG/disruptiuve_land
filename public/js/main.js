@@ -153,7 +153,7 @@ window.addEventListener('load', function(){
             // screens greater than >= 1024px
             breakpoint: 1330,
             settings: {
-              slidesToShow: 3,
+              slidesToShow: 2,
               slidesToScroll: 1
               // itemWidth: 150,
             }

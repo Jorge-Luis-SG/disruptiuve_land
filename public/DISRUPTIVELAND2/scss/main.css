@@ -10758,31 +10758,31 @@ p {
   }
 }
 
-.dash-investment-section-cards-box .sold-investment, .dash-investment .dash-banner-investment-box1-title, .dash-investment .dash-banner-investment-box1-feature, header .dash-header-box1 a, .menu-lateral-globlal-content .dash-name-user, .menu-lateral-globlal-content .dash-header-dashboard, .dashboard-home-section1-box2-title, .dash-investment-section-cards-box-item h4, .dash-investment-section-cards-box-item .h4, .dashboard-home-section1-box1-carousel-container-list-item h4, .dashboard-home-section1-box1-carousel-container-list-item .h4, .dashboard-home-section1-box1 h3, .dashboard-home-section1-box1 .h3 {
+.dash-btn-perfil-content label, .dash-invest-content .mint-set-dash-invest-box1 span, .dash-invest-content h3, .dash-invest-content .h3, .dash-invest-organic h3, .dash-invest-organic .h3, .dash-transactions-view a, .dash-transactions-title h4, .dash-transactions-title .h4, .dash-more-info-arrows span, .dash-banner-more-info h3, .dash-banner-more-info .h3, .dash-investor-barra-progress-texto-content h4, .dash-investor-barra-progress-texto-content .h4, .dash-investor-section2-box1-boxs p, .dash-investor-section2-box1-boxs h4, .dash-investor-section2-box1-boxs .h4, .dash-investor-section1-box2-grafica h6, .dash-investor-section1-box2-grafica .h6, .dash-investment-section-cards-box .sold-investment, .dash-investment .dash-banner-investment-box1-title, .dash-investment .dash-banner-investment-box1-feature, header .dash-header-box1 a, .menu-lateral-globlal-content .dash-name-user, .menu-lateral-globlal-content .dash-header-dashboard, .dashboard-home-section1-box2-title, .wallet-options-active.connect-wallet-options .connect-wallet-options-div h3, .wallet-options-active.connect-wallet-options .connect-wallet-options-div .h3, .dash-investment-section-cards-box-item h4, .dash-investment-section-cards-box-item .h4, .dashboard-home-section1-box1-carousel-container-list-item h4, .dashboard-home-section1-box1-carousel-container-list-item .h4, .dash-investor-barra-progress-content .barra-progress-number, .dash-investor-section3-box1 h2, .dash-investor-section3-box1 .h2, .dashboard-home-section1-box1 h3, .dashboard-home-section1-box1 .h3 {
   font-family: "Gotham";
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-.menu-lateral-globlal-content .dash-menu-general .dash-menu-general-text, .menu-lateral-globlal-content .dash-name-rank, .dashboard-home-section1-box1 h5, .dashboard-home-section1-box1 .h5, .dash-investment-section-cards-box-item .dashboard-invest-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-invest-btn, .dash-investment-section-cards-box-item .dashboard-more-info-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-more-info-btn, .dash-investment .dash-banner-investment-box1-btn-2, .dash-investment .dash-banner-investment-box1-btn-1, header .dash-header-box2-btn2, .dashboard-home-section1-box2 .btn {
+.dash-invest-content .total-mint-dash-invest-1, .dash-invest-content .mint-set-dash-invest2-box1 select, .dash-invest-content-data, .tables > table > tbody > tr td, .menu-lateral-globlal-content .dash-menu-general .dash-menu-general-text, .menu-lateral-globlal-content .dash-name-rank, .dashboard-home-section1-box1 h5, .dashboard-home-section1-box1 .h5, .wallet-options-active.connect-wallet-options .connect-wallet-options-div ul li, .dash-investment-section-cards-box-item .dashboard-invest-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-invest-btn, .dash-investment-section-cards-box-item .dashboard-more-info-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-more-info-btn, .dash-btn-perfil-content .dash-btn-confirm, .dash-btn-perfil a, .dash-invest-content .dash-btn-mint, .dash-invest-content .mint-set-dash-invest-box2 a, .dash-more-info-section2-box1 a, .dash-investor-section1-box1-btn a, .dash-investor-section1-box1-total-title, .dash-investment .dash-banner-investment-box1-btn-2, .dash-investment .dash-banner-investment-box1-btn-1, header .dash-header-box2-btn2, .dashboard-home-section1-box2 .btn {
   font-family: "Gotham";
   font-weight: normal;
   font-size: 1.2rem;
 }
 
-.dashboard-home-section1-box1 h3, .dashboard-home-section1-box1 .h3 {
+.dash-investor-barra-progress-content .barra-progress-number, .dash-investor-section3-box1 h2, .dash-investor-section3-box1 .h2, .dashboard-home-section1-box1 h3, .dashboard-home-section1-box1 .h3 {
   font-size: 2.85rem;
   letter-spacing: 1px;
   margin: 12px 0;
 }
 @media screen and (max-width: 992px) {
-  .dashboard-home-section1-box1 h3, .dashboard-home-section1-box1 .h3 {
+  .dash-investor-barra-progress-content .barra-progress-number, .dash-investor-section3-box1 h2, .dash-investor-section3-box1 .h2, .dashboard-home-section1-box1 h3, .dashboard-home-section1-box1 .h3 {
     text-align: center;
     font-size: 3rem;
   }
 }
 
-.dash-investment .dash-banner-investment-box1-btn-2, .dash-investment .dash-banner-investment-box1-btn-1, header .dash-header-box2-btn2, .dashboard-home-section1-box2 .btn, .dash-investment-section-cards-box-item .dashboard-invest-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-invest-btn, .dash-investment-section-cards-box-item .dashboard-more-info-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-more-info-btn {
+.dash-btn-perfil-content .dash-btn-confirm, .dash-btn-perfil a, .dash-invest-content .dash-btn-mint, .dash-invest-content .mint-set-dash-invest-box2 a, .dash-more-info-section2-box1 a, .dash-investor-section1-box1-btn a, .dash-investor-section1-box1-total-title, .dash-investment .dash-banner-investment-box1-btn-2, .dash-investment .dash-banner-investment-box1-btn-1, header .dash-header-box2-btn2, .dashboard-home-section1-box2 .btn, .dash-investment-section-cards-box-item .dashboard-invest-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-invest-btn, .dash-investment-section-cards-box-item .dashboard-more-info-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-more-info-btn {
   padding: 7px 0;
   width: 155px;
   background-color: #3A3A3A;
@@ -10790,7 +10790,7 @@ p {
   color: #fff;
 }
 @media screen and (max-width: 1400px) {
-  .dash-investment .dash-banner-investment-box1-btn-2, .dash-investment .dash-banner-investment-box1-btn-1, header .dash-header-box2-btn2, .dashboard-home-section1-box2 .btn, .dash-investment-section-cards-box-item .dashboard-invest-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-invest-btn, .dash-investment-section-cards-box-item .dashboard-more-info-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-more-info-btn {
+  .dash-btn-perfil-content .dash-btn-confirm, .dash-btn-perfil a, .dash-invest-content .dash-btn-mint, .dash-invest-content .mint-set-dash-invest-box2 a, .dash-more-info-section2-box1 a, .dash-investor-section1-box1-btn a, .dash-investor-section1-box1-total-title, .dash-investment .dash-banner-investment-box1-btn-2, .dash-investment .dash-banner-investment-box1-btn-1, header .dash-header-box2-btn2, .dashboard-home-section1-box2 .btn, .dash-investment-section-cards-box-item .dashboard-invest-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-invest-btn, .dash-investment-section-cards-box-item .dashboard-more-info-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-more-info-btn {
     padding: 11px 0;
     width: 170px;
     border-radius: 0.8rem;
@@ -11079,6 +11079,16 @@ body {
   max-width: 400px;
 }
 
+.dash-investor, .dash-investment {
+  background-color: #F8F8F8;
+  padding: 5rem !important;
+}
+@media screen and (max-width: 767px) {
+  .dash-investor, .dash-investment {
+    padding: 5rem 1rem !important;
+  }
+}
+
 .dash-investment-section-cards-box-item .dashboard-more-info-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-more-info-btn {
   padding: 4.5px 0;
   width: 105px;
@@ -11096,6 +11106,88 @@ body {
 .dash-investment-section-cards-box-item h4, .dash-investment-section-cards-box-item .h4, .dashboard-home-section1-box1-carousel-container-list-item h4, .dashboard-home-section1-box1-carousel-container-list-item .h4 {
   margin-right: auto;
   font-size: 1.6rem;
+}
+
+.dash-notification-invest {
+  position: absolute;
+  width: 26px;
+  height: 23px;
+  border-radius: 0.9rem;
+  background-color: #FC5A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.connect-wallet-options {
+  display: none;
+}
+
+.wallet-options-active.connect-wallet-options {
+  background-color: rgba(255, 255, 255, 0.4392156863);
+  backdrop-filter: blur(6px);
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+}
+.wallet-options-active.connect-wallet-options .connect-wallet-options-div {
+  background-color: rgba(255, 255, 255, 0.5647058824);
+  max-width: 310px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding: 2.5rem 0.5rem 3rem;
+  border: 1px solid rgba(112, 112, 112, 0.2509803922);
+}
+.wallet-options-active.connect-wallet-options .connect-wallet-options-div #btn-connect-close {
+  cursor: pointer;
+  position: absolute;
+  top: 7px;
+}
+.wallet-options-active.connect-wallet-options .connect-wallet-options-div h3, .wallet-options-active.connect-wallet-options .connect-wallet-options-div .h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.wallet-options-active.connect-wallet-options .connect-wallet-options-div ul {
+  max-width: 131px;
+  margin: auto;
+  padding: 0;
+}
+.wallet-options-active.connect-wallet-options .connect-wallet-options-div ul li {
+  padding: 0.6rem 0;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+.wallet-options-active.connect-wallet-options .connect-wallet-options-div ul li img {
+  width: 15px;
+  margin-right: 0.4rem;
+}
+
+.dash-notification-invest {
+  top: -0.7rem;
+  right: 0;
+}
+
+ul.dash-menu-general .dash-notification-invest {
+  transform: translate(-50px, 20px);
+}
+
+.dashboard-home-section1 {
+  background-color: rgba(255, 255, 255, 0.3764705882);
+}
+
+main {
+  min-height: calc(100vh - 80px);
+  background-image: url(../../images/montana-dash.png);
+  background-position-y: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .dashboard-home {
@@ -11329,6 +11421,9 @@ body {
   content: url(../../images/dash-logo.svg);
   width: 45px;
 }
+.dash-menu-active .menu-lateral-globlal-content .dash-notification-invest {
+  transform: translate(-5px, 20px);
+}
 .dash-menu-active .menu-lateral-globlal-content-img-perfil {
   margin: 5rem 0 2rem;
 }
@@ -11423,6 +11518,9 @@ body {
     content: url(../../images/logo-header.svg) !important;
     width: 80% !important;
     max-width: 170px;
+  }
+  .dash-menu-active .menu-lateral-globlal-content .dash-notification-invest {
+    transform: translate(-40px, 20px);
   }
   .dash-menu-active .menu-lateral-globlal-content-img-perfil {
     margin: 5rem 0 2rem;
@@ -11558,7 +11656,7 @@ header .dash-header-box2-btn2 {
   display: flex;
   justify-content: center;
   padding: 11px 0px;
-  width: 170px;
+  width: 180px;
 }
 header .dash-header-box2-btn2 img {
   width: 20px;
@@ -11567,8 +11665,16 @@ header .dash-header-box2-btn2 img {
 @media screen and (max-width: 767px) {
   header .dash-header-box2-btn2 {
     font-size: 1rem;
-    width: 140px;
+    width: 160px;
   }
+}
+header .dash-header-box2-btn2 span {
+  color: #fff;
+}
+header .dash-header-box2-btn2 span:first-child {
+  border-right: 2.3px solid #fff;
+  padding-right: 1rem;
+  margin-right: 1rem;
 }
 
 .dash-investment-dad {
@@ -11584,15 +11690,6 @@ header .dash-header-box2-btn2 img {
   border-radius: 2rem;
 }
 
-.dash-investment {
-  background-color: #F8F8F8;
-  padding: 5rem !important;
-}
-@media screen and (max-width: 767px) {
-  .dash-investment {
-    padding: 5rem 1rem !important;
-  }
-}
 .dash-investment .dash-banner-investment {
   padding: 8rem;
 }
@@ -11734,6 +11831,515 @@ header .dash-header-box2-btn2 img {
 }
 .dash-investment-section-cards-box-item p {
   margin: 1.7rem 0 2.6rem;
+}
+.dash-investor-section1-box1 {
+  max-width: 600px;
+}
+.dash-investor-section1-box1-total {
+  position: relative;
+  max-width: 189px;
+}
+.dash-investor-section1-box1-total-title {
+  padding: 6px 0;
+  width: 180px;
+  font-size: 1.8rem;
+}
+.dash-investor-section1-box1-total-title span {
+  color: #fff;
+  font-weight: bold;
+  margin-right: 0.4rem;
+}
+.dash-investor-section1-box1-boxs {
+  margin-top: 2.5rem;
+}
+@media screen and (max-width: 992px) {
+  .dash-investor-section1-box1-boxs-box1, .dash-investor-section1-box1-boxs-box2 {
+    padding: 3rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .dash-investor-section1-box1-boxs-box1, .dash-investor-section1-box1-boxs-box2 {
+    padding: 1rem;
+  }
+}
+.dash-investor-section1-box1-boxs img {
+  max-width: 212px;
+  width: 100%;
+}
+.dash-investor-section1-box1-boxs p {
+  max-width: 212px;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.dash-investor-section1-box1-btn {
+  margin-top: 2.6rem;
+}
+.dash-investor-section1-box1-btn a {
+  padding: 6px 0;
+  width: 170px;
+}
+@media screen and (max-width: 992px) {
+  .dash-investor-section1-box2 {
+    margin-top: 3rem;
+  }
+}
+.dash-investor-section1-box2-grafica {
+  max-width: 560px;
+  width: 90%;
+  background: #fff;
+  padding: 0rem 2rem;
+}
+.dash-investor-section2 {
+  margin-top: 3.6rem;
+  background-color: #fff;
+}
+.dash-investor-section2-box1-boxs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70px;
+}
+.dash-investor-section2-box1-boxs h4, .dash-investor-section2-box1-boxs .h4 {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.dash-investor-section2-box1-boxs h4 img, .dash-investor-section2-box1-boxs .h4 img {
+  margin-left: 0.6rem;
+}
+.dash-investor-section2-box1-boxs p {
+  margin: 0;
+  font-size: 1.9rem;
+  text-align: left;
+}
+@media screen and (max-width: 600px) {
+  .dash-investor-section2-box1-boxs p {
+    font-size: 1.6rem;
+  }
+}
+.dash-investor-section2-box1-boxs .dash-investor-green-text {
+  color: #7DD61D;
+}
+
+.dash-investor-section3 {
+  margin-top: 5rem;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+@media screen and (max-width: 600px) {
+  .dash-investor-section3-box1 h2, .dash-investor-section3-box1 .h2 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .dash-investor-section3-box1 h2, .dash-investor-section3-box1 .h2 {
+    font-size: 2.2rem;
+  }
+}
+.dash-investor-section3-box2 img {
+  filter: grayscale(1);
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.dash-investor-barra-progress-content {
+  background-color: #fff;
+  border-radius: 1.15rem;
+  height: 55px;
+  margin-top: 4.5rem;
+}
+.dash-investor-barra-progress-content .barra-progress {
+  width: 30%;
+  height: 100%;
+  background-color: #7DD61D;
+  border-radius: 1.15rem 0 0 1.15rem;
+}
+.dash-investor-barra-progress-content .barra-progress-number {
+  margin: 1rem 0 1rem 1.5rem;
+}
+.dash-investor-barra-progress-texto {
+  margin-top: 3.5rem;
+}
+.dash-investor-barra-progress-texto-content h4, .dash-investor-barra-progress-texto-content .h4 {
+  font-size: 2.2rem;
+}
+.dash-investor-barra-progress-texto-content p {
+  max-width: 400px;
+  font-size: 1.2rem;
+  line-height: 17px;
+  text-align: center;
+}
+
+.dash-banner-more-info {
+  background-image: url(../../images/portfolio3.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  filter: grayscale(1);
+  color: #fff;
+  border-radius: 2rem;
+  padding: 10rem 0;
+}
+.dash-banner-more-info h3, .dash-banner-more-info .h3 {
+  color: #fff;
+  font-size: 7.5rem;
+  margin: 0;
+}
+@media screen and (max-width: 767px) {
+  .dash-banner-more-info h3, .dash-banner-more-info .h3 {
+    font-size: 3.5rem;
+  }
+}
+
+.dash-more-info-arrows img {
+  object-fit: contain;
+  width: 17px;
+}
+.dash-more-info-arrows .dash-arrow-left {
+  transform: rotate(90deg);
+}
+.dash-more-info-arrows .dash-arrow-right {
+  transform: rotate(-90deg);
+}
+.list-transactions-history {
+  background-color: rgba(255, 255, 255, 0.3960784314);
+}
+
+.dash-transactions {
+  padding: 2.5rem 4rem;
+  margin-top: 4rem;
+}
+@media screen and (max-width: 550px) {
+  .dash-transactions {
+    padding: 2.5rem 1rem;
+  }
+}
+.dash-transactions-title #view-more-button {
+  right: 0;
+  transform: translateX(-30px);
+}
+.dash-transactions-view {
+  background-color: #fff;
+  padding: 1rem 4rem;
+}
+.dash-transactions-view a {
+  text-transform: uppercase;
+}
+
+.tables {
+  max-width: 1720px;
+}
+.tables > table {
+  width: 100%;
+  font-size: 11px;
+}
+.tables > table > tbody > tr:first-child {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 1.2rem;
+}
+.tables > table > tbody > tr {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  justify-content: space-between;
+  margin-bottom: 40px;
+  align-items: center;
+}
+.tables > table > tbody > tr > th:first-child {
+  max-width: 260px;
+}
+.tables > table > tbody > tr > th {
+  display: flex;
+  justify-content: center;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.tables > table > tbody > tr td:first-child {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.tables > table > tbody > tr td:first-child img {
+  margin-right: 1.4rem;
+}
+@media screen and (max-width: 1200px) {
+  .tables > table > tbody > tr td:first-child img {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .tables > table > tbody > tr td:first-child {
+    font-size: 1rem;
+  }
+}
+.tables > table > tbody > tr td {
+  justify-content: center;
+  display: flex;
+}
+.tables > table > tbody > tr .dash-status-trasactions-1 span {
+  color: #7DD61D;
+  padding: 0.5rem 2rem;
+  border-radius: 0.6rem;
+  background-color: rgba(125, 214, 29, 0.062745098);
+}
+.tables > table > tbody > tr .dash-status-trasactions-2 span {
+  color: #50B5FF;
+  padding: 0.5rem 2rem;
+  border-radius: 0.6rem;
+  background-color: rgba(80, 181, 255, 0.062745098);
+}
+.tables > table > tbody > tr .dash-status-trasactions-3 span {
+  color: #FC5A5A;
+  padding: 0.5rem 2rem;
+  border-radius: 0.6rem;
+  background-color: rgba(252, 90, 90, 0.062745098);
+}
+
+@media screen and (max-width: 1200px) {
+  .tables > table > tbody > tr {
+    display: grid;
+    grid-template-columns: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .tables th {
+    display: none !important;
+  }
+  .tables td {
+    display: block !important;
+    text-align: right !important;
+  }
+  .tables td:last-child {
+    border-bottom: 1px solid red !important;
+  }
+  .tables td::before {
+    content: attr(data-label);
+    float: left;
+  }
+}
+.dash-more-info-section1-box1 {
+  max-width: 580px;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2rem 3rem;
+}
+.dash-more-info-section1-box1-grafica {
+  max-width: 400px;
+  margin: auto;
+}
+.dash-more-info-section1-box2 {
+  max-width: 580px;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+}
+.dash-more-info-section1-box2-grafica {
+  max-width: 400px;
+  width: 90%;
+  margin: auto;
+}
+
+.dash-more-info-section2-box1 p {
+  font-size: 1.2rem;
+  line-height: 17px;
+  max-width: 490px;
+}
+.dash-more-info-section2-box1 a {
+  max-width: 490px;
+  margin-top: 1.6rem;
+  margin-right: auto;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 992px) {
+  .dash-more-info-section2-box1 a {
+    margin: 2rem auto 3rem;
+  }
+}
+.dash-more-info-section2-box1 a img {
+  margin-right: 0.6rem;
+}
+.dash-more-info-section2-box2 video {
+  max-width: 650px;
+  width: 100%;
+}
+
+.dash-invest {
+  background-color: rgba(255, 255, 255, 0.3960784314);
+  display: flex;
+  align-items: center;
+  max-width: 850px;
+  min-width: 680px;
+}
+@media screen and (max-width: 1200px) {
+  .dash-invest {
+    min-width: 300px;
+  }
+}
+.dash-invest-organic h3, .dash-invest-organic .h3 {
+  font-size: 2.5rem;
+}
+.dash-invest > img {
+  position: absolute;
+  left: 0;
+  transform: translateX(-260px);
+  width: 70%;
+  max-width: 410px;
+  filter: grayscale(1);
+}
+@media screen and (max-width: 1680px) {
+  .dash-invest > img {
+    transform: translateX(-240px);
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .dash-invest > img {
+    transform: translateX(0px);
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+    border-radius: 2rem;
+    object-fit: cover;
+  }
+}
+.dash-invest-content {
+  width: 75%;
+  margin-left: auto;
+  padding: 3rem 4rem 3rem 0;
+}
+@media screen and (max-width: 1200px) {
+  .dash-invest-content {
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 600px;
+    padding: 0rem;
+  }
+}
+.dash-invest-content h3, .dash-invest-content .h3 {
+  font-size: 2.2rem;
+}
+.dash-invest-content-info {
+  font-size: 1.2rem;
+  line-height: 17px;
+}
+.dash-invest-content-data span {
+  font-weight: bold;
+}
+.dash-invest-content .mint-set-dash-invest {
+  border: 1px solid #C8C8C8;
+  border-radius: 0.5rem;
+  padding: 0.6rem 0.6rem 0.6rem 1rem;
+}
+.dash-invest-content .mint-set-dash-invest-box1 {
+  width: 90px;
+}
+.dash-invest-content .mint-set-dash-invest-box2 a {
+  text-transform: uppercase;
+  width: 125px;
+  padding: 9px 0;
+}
+.dash-invest-content .mint-set-dash-invest2 {
+  border: 1px solid #C8C8C8;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 1.4rem;
+  margin-bottom: 0.7rem;
+}
+.dash-invest-content .mint-set-dash-invest2-box1 select {
+  width: 100%;
+  height: 40px;
+  font-size: 1.65rem;
+  border: none;
+}
+@media screen and (max-width: 600px) {
+  .dash-invest-content .mint-set-dash-invest2-box1 select {
+    font-size: 1.4rem;
+  }
+}
+.dash-invest-content .total-mint-dash-invest-1 {
+  margin: 0;
+}
+.dash-invest-content hr {
+  margin-top: 0.7rem;
+}
+.dash-invest-content .dash-btn-mint {
+  margin: 2.8rem auto;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  padding: 8px 0;
+}
+
+.dash-btn-perfil a {
+  width: 155px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40px;
+  padding: 7px 1.5rem;
+  margin-right: 1.2rem;
+  outline: none;
+  border-radius: 0.7rem 0.7rem 0 0;
+}
+.dash-btn-perfil .dash-btn-perfil-1 {
+  color: #3A3A3A;
+  background-color: #fff;
+}
+.dash-btn-perfil .dash-btn-security-1 img {
+  filter: invert(1);
+}
+.dash-btn-perfil .dash-btn-security-2 {
+  color: #3A3A3A;
+  background-color: #fff;
+}
+.dash-btn-perfil .dash-btn-security-2 img {
+  filter: invert(1);
+}
+.dash-btn-perfil .dash-btn-perfil-2:hover {
+  color: #3A3A3A;
+  background-color: #fff;
+}
+.dash-btn-perfil .dash-btn-perfil-2:hover img {
+  filter: invert(1);
+}
+.dash-btn-perfil .dash-btn-security-1:hover {
+  color: #3A3A3A;
+  background-color: #fff;
+}
+.dash-btn-perfil .dash-btn-security-1:hover img {
+  filter: invert(0);
+}
+.dash-btn-perfil-content {
+  background-color: #fff;
+  max-width: 1000px;
+  padding: 1.5rem;
+}
+.dash-btn-perfil-content label {
+  margin-bottom: 1rem;
+}
+.dash-btn-perfil-content input {
+  height: 40px;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+  border: none;
+  background-color: #F8F8F8;
+}
+.dash-btn-perfil-content input::placeholder {
+  opacity: 0.5;
+}
+.dash-btn-perfil-content .dash-btn-confirm {
+  width: 115px;
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,7 +1,6 @@
 @import "./custom";
 
 
-
 .menu-header{
     content: url("../images/open-menu.svg");
     transition: all .5s;
@@ -42,6 +41,8 @@
     padding: 0 30px;    
     }
     &-box1{
+        flex-direction: row-reverse !important;
+        display: flex;
         img{
             max-width: 200px;
             width: 100%;

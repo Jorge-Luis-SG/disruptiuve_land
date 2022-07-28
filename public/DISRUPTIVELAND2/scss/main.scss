@@ -1,8 +1,82 @@
 @import "../../scss/custom";
 
+// CONNECT WALLET 
+.connect-wallet-options{
+    display: none;
+}
+.wallet-options-active.connect-wallet-options{
+    background-color: #ffffff70;
+    backdrop-filter: blur(6px);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+        .connect-wallet-options-div{
+        background-color: #ffffff90;
+        max-width: 310px;
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 1rem;
+        padding: 2.5rem 0.5rem 3rem;
+        border: 1px solid #70707040;
+            #btn-connect-close{
+                cursor: pointer;
+                position: absolute;
+                top: 7px;
+            }
+            h3{
+                font-size: 1.8rem;
+                margin-bottom: 2rem;
+                @extend %gbold;
+            }
+            ul{
+                max-width: 131px;
+                margin: auto;
+                padding: 0;
+                li{
+                    padding: 0.6rem 0;
+                    margin-bottom: 1rem;
+                    font-size: 1.3rem;
+                    @extend %gbook;
+                    img{
+                        width: 15px;
+                        margin-right: 0.4rem;
+                    }
+                }
+            }
+            
+            
+        }
+}
+// NOTIFICACION
+.dash-notification-invest{
+    top: -0.7rem;
+    right: 0;
+    @extend %notification;
+}
+ul.dash-menu-general{
+    .dash-notification-invest{
+        transform: translate(-50px, 20px);
+    }
+}
 
+
+.dashboard-home-section1{
+    background-color: #ffffff60;
+}
+main{
+    min-height: calc(100vh - 80px);
+    background-image:url(../../images/montana-dash.png);    
+    background-position-y: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .dashboard-home{
-        background-image: url(../../images/home.png);
+        background-image:url(../../images/home.png);
         background-position-y: 62vh;
         background-repeat: no-repeat;
         @media screen and (max-width:1200px){
@@ -252,6 +326,9 @@
            content: url(../../images/dash-logo.svg);
            width: 45px;
         }
+        .dash-notification-invest{
+            transform: translate(-5px, 20px);
+        }
         &-img-perfil{
             margin: 5rem 0 2rem;
                 img{
@@ -362,6 +439,9 @@
                        content: url(../../images/logo-header.svg) !important;
                        width: 80% !important;
                        max-width: 170px;
+                    }
+                    .dash-notification-invest{
+                        transform: translate(-40px, 20px);
                     }
                     &-img-perfil{
                         margin: 5rem 0 2rem;
@@ -501,7 +581,7 @@ header{
                 display: flex;
                 justify-content: center;
                 padding: 11px 0px;
-                width: 170px;
+                width: 180px;
                 @extend %btn1;
                 img{
                     width: 20px;
@@ -509,15 +589,20 @@ header{
                 }
                 @media screen and (max-width:767px){
                     font-size: 1rem;
-                    width: 140px;
+                    width: 160px;
+                }
+                span{
+                    color: #fff;
+                    &:first-child{
+                        border-right: 2.3px solid #fff;
+                        padding-right: 1rem;
+                        margin-right: 1rem;
+                    }
                 }
             }
         }
     }
 }
-
-
-
 
 .dash-investment-dad{
     width: 100%;
@@ -532,11 +617,7 @@ header{
 }
 
 .dash-investment{
-    background-color:$dash-fondo;
-    padding: 5rem !important;
-    @media screen and(max-width:767px){
-        padding:5rem 1rem !important;
-    }
+    @extend %dashMain;
     .dash-banner-investment{
         padding: 8rem;
         @media screen and(max-width:1640px){
@@ -630,7 +711,6 @@ header{
 }
 
 .dash-investment-section-cards{
-   
     &-box{
         position: relative;
         justify-content: center;
@@ -680,3 +760,594 @@ header{
 }
 
 
+
+// PAGINA DE INVEST
+// SECCION 1
+.dash-investor{
+    @extend %dashMain;
+    &-section1{
+        &-box1{
+            max-width: 600px;
+            &-total{
+                position: relative;
+                max-width: 189px;
+                &-title{
+                    padding: 6px 0;
+                    width: 180px;
+                    font-size: 1.8rem;
+                    @extend %btn1;
+                    span{
+                        color: #fff;
+                        font-weight: bold;
+                        margin-right: .4rem;
+                    }
+                }
+               
+            }
+            &-boxs{
+                margin-top: 2.5rem;
+                &-box1,&-box2{
+                    @media screen and (max-width:992px){
+                        padding: 3rem;
+                    }
+                    @media screen and (max-width:550px){
+                        padding: 1rem;
+                    }
+                }
+                img{
+                    max-width: 212px;
+                    width: 100%;
+                }
+                p{
+                    max-width: 212px;
+                    font-size: 1.2rem;
+                    margin-top: 1rem;
+                }
+            }
+            &-btn{
+                margin-top: 2.6rem;
+                a{
+                    padding: 6px 0;
+                    width: 170px;
+                    @extend %btn1;
+                }
+            }
+        }
+        &-box2{
+            @media screen and (max-width:992px){
+               margin-top: 3rem;
+            }
+            &-grafica{
+                max-width: 560px;
+                width: 90%;
+                background: #fff;
+                padding: 0rem 2rem;
+                h6{
+                    @extend %gbold;
+                }
+                .data-status-dash{
+                    padding: 0;
+                    width: 110px;
+                }
+                
+            }
+            
+
+        }
+    }
+}
+
+
+// SECCION 2
+.dash-investor-section2{
+    margin-top: 3.6rem; 
+    background-color: #fff;
+    &-box1{
+        &-boxs{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 70px;
+            h4{
+                margin: 0; 
+                display: flex;
+                align-items: flex-start;
+                @extend %gbold;
+                img{
+                    margin-left: .6rem;
+                }
+            }
+            p{
+                margin: 0;
+                font-size: 1.9rem;
+                text-align: left;
+                @extend %gbold;
+                    @media screen and (max-width:600px){
+                        font-size: 1.6rem;
+                    }
+            }
+            .dash-investor-green-text{
+                color: $dash-status;
+            }
+
+
+        }
+    }
+}
+
+// SECCION 3
+.dash-investor-section3{
+    margin-top: 5rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    &-box1{
+        h2{
+            @extend %title1;
+            @media screen and (max-width:600px){
+                        font-size: 2.5rem;
+            }
+            @media screen and (max-width:550px){
+                        font-size: 2.2rem;
+            }
+        }
+    }
+    &-box2{
+        img{
+            filter: grayscale(1);
+            object-fit: cover;
+            width: 100%;
+            height: 300px;
+        }
+    }
+}
+
+// <!-- BARRA DE PROGRESO-->
+
+.dash-investor-barra-progress{
+    &-content{
+        background-color: #fff;
+        border-radius: 1.15rem;
+        height: 55px;
+        margin-top: 4.5rem;
+        .barra-progress{
+            width: 30%;
+            height: 100%;
+            background-color: $dash-status;
+            border-radius: 1.15rem 0 0 1.15rem;
+        }
+        .barra-progress-number{
+            margin: 1rem 0 1rem 1.5rem;
+            @extend %title1;
+        }
+    }
+    &-texto{
+            margin-top: 3.5rem;
+        &-content{
+            h4{
+                font-size: 2.2rem;
+                @extend %gbold;
+            }
+            p{
+                max-width: 400px;
+                font-size: 1.2rem;
+                line-height: 17px;
+                text-align: center;
+                
+            }
+        }
+    }
+}
+
+
+// PAGINA DE INFO MORE
+.dash-banner-more-info{
+    background-image: url(../../images/portfolio3.png);
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    color: #fff;
+    border-radius: 2rem;
+    padding: 10rem 0;
+    h3{
+        color: #fff;
+        font-size: 7.5rem;
+        margin: 0;
+        @extend %gbold;
+        @media screen and(max-width:767px){
+            font-size: 3.5rem;
+        }           
+    }
+}
+.dash-more-info-arrows{
+    img{
+        object-fit: contain;
+        width: 17px;
+    }
+    .dash-arrow-left{
+        transform: rotate(90deg);
+    }
+    .dash-arrow-right{
+        transform: rotate(-90deg);
+    }
+    span{
+        @extend %gbold;
+    }
+}
+.list-transactions-history{
+    background-color: $dash-fondoWhite65;
+}
+.dash-transactions{
+    padding: 2.5rem 4rem;
+    margin-top: 4rem;
+    @media screen and (max-width:550px){
+        padding: 2.5rem 1rem;
+
+    }
+    &-title{
+        h4{
+            @extend %gbold; 
+        }
+        #view-more-button{
+            right: 0;
+            transform: translateX(-30px);   
+        }
+    }
+    &-view{
+        background-color: #fff;
+        padding: 1rem 4rem;
+        a{
+            text-transform: uppercase;
+            @extend %gbold; 
+
+        }
+    }
+}
+.tables{
+    max-width: 1720px;
+    & > table{
+        width: 100%;
+        font-size: 11px;
+        & > tbody > tr:first-child{
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 1.2rem;
+        }
+            & > tbody > tr{
+                display: grid;
+                grid-template-columns: repeat(4, calc(100% / 4) );
+                justify-content: space-between;
+                margin-bottom: 40px;
+                align-items: center;
+
+                & > th:first-child {
+                    max-width: 260px;
+               }
+                 & > th {
+                    display: flex;
+                    justify-content: center;
+                    font-size: .85rem;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                }
+                td:first-child {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    img{
+                        margin-right: 1.4rem;
+                    }
+                    @media screen and (max-width:1200px){
+                        img{
+                           display: none; 
+                        }
+                    }
+                    @media screen and (max-width:500px){
+                        font-size: 1rem;
+                    }
+                }
+                td {
+                    justify-content: center;
+                    display: flex;
+                    @extend %gbook;
+                }
+                .dash-status-trasactions-1{
+                    span{
+                        color: $dash-status;
+                        padding: 0.5rem 2rem;
+                        border-radius: 0.6rem;
+                        background-color: $dash-status-1-10;
+                    }
+                }
+                .dash-status-trasactions-2{
+                    span{
+                        color: $dash-status2;
+                        padding: 0.5rem 2rem;
+                        border-radius: 0.6rem;
+                        background-color: $dash-status2-10;
+                    }
+                }
+                .dash-status-trasactions-3{
+                    span{
+                        color: $dash-status3;
+                        padding: 0.5rem 2rem;
+                        border-radius: 0.6rem;
+                        background-color: $dash-status3-10;
+                    }
+                }
+    }
+}
+}
+@media screen and (max-width:1200px){
+    .tables > table > tbody > tr {  
+        display: grid;
+        grid-template-columns: 100%;
+        max-width: 550px;
+        margin: 0 auto;
+        justify-content: center;
+
+    }
+    .tables th{
+        display: none !important;
+    }.tables td{
+        display: block !important;
+        text-align: right !important;
+    }
+        .tables td:last-child{
+        border-bottom: 1px solid red !important;
+        }
+    .tables td::before{
+        content: attr(data-label);
+        float: left;
+    }
+
+}
+
+.dash-more-info-section1{
+    &-box1{
+        max-width: 580px;
+        background: #fff;
+        border-radius: 1rem;
+        padding: 2rem 3rem;
+        &-grafica{
+            max-width: 400px;
+            margin: auto;
+        }
+    }
+    &-box2{
+        max-width: 580px;
+        background: #fff;
+        border-radius: 1rem;
+        padding: 1rem 3rem;
+        &-grafica{
+            max-width: 400px;
+            width: 90%;
+            margin: auto;
+        }
+    }
+}
+.dash-more-info-section2{
+    &-box1{
+        p{
+            font-size: 1.2rem;
+            line-height: 17px;  
+            max-width: 490px;
+        }
+        a{
+            max-width: 490px;
+            margin-top: 1.6rem;
+            margin-right: auto;
+            width: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @extend %btn1;
+            @media screen and (max-width:992px){
+                margin:2rem auto 3rem;
+            }
+            img{
+                margin-right: .6rem;
+            }
+        }
+    }
+    &-box2{
+        video{
+            max-width: 650px;
+            width: 100%;
+        }
+    }
+}
+
+// PAGINA DE INVEST
+.dash-invest{
+    background-color: $dash-fondoWhite65;
+    display: flex;
+    align-items: center;
+    max-width: 850px;
+    min-width: 680px;
+    @media screen and (max-width:1200px){
+        min-width: 300px;
+    }
+    &-organic{
+        h3{
+            font-size: 2.5rem;
+            @extend %gbold;
+        }
+    }
+    & > img{
+        position: absolute ;
+        left: 0;
+        transform: translateX(-260px);
+        width: 70%;
+        max-width: 410px;
+        filter: grayscale(1);
+        @media screen and (max-width:1680px){
+            transform: translateX(-240px);
+            max-width: 350px;
+        }
+        @media screen and (max-width:1200px){
+            transform: translateX(0px);
+            position: relative;
+            max-width: 100%;
+            width: 100%;
+            height: 300px;
+            border-radius: 2rem;
+            object-fit: cover;
+        }
+    }
+    &-content{
+        width: 75%;
+        margin-left: auto;
+        padding: 3rem 4rem 3rem 0;
+        @media screen and (max-width:1200px){
+            margin:2rem auto;
+            width: 100%;
+            max-width: 600px;
+            padding: 0rem;
+
+        }
+        h3{
+            font-size: 2.2rem;
+            @extend %gbold;
+
+        }
+        &-info{
+            font-size: 1.2rem;
+            line-height: 17px;
+        }
+        &-data{
+            @extend %gbook;
+            span{
+                font-weight: bold;
+            }
+        }
+        .mint-set-dash-invest{
+            border: 1px solid $border2;
+            border-radius: .5rem;
+            padding:0.6rem 0.6rem 0.6rem 1rem;
+
+            &-box1{
+                width: 90px;
+                span{
+                    @extend %gbold;
+                }
+            }
+            &-box2{
+                a{
+                    text-transform: uppercase;
+                    width: 125px;
+                    padding: 9px 0;
+                    @extend %btn1;
+                }
+            }
+        }
+        .mint-set-dash-invest2{
+            border: 1px solid $border2;
+            border-radius: .5rem;
+            padding:.5rem;
+            margin-top: 1.4rem;
+            margin-bottom: .7rem;
+            &-box1{
+                select {
+                    width: 100%;
+                    height: 40px;
+                    font-size: 1.65rem;  
+                    border: none;
+                    @extend %gbook;
+                    @media screen and (max-width:600px){
+                    font-size: 1.40rem;  
+                    }
+                }
+            }
+        }
+        .total-mint-dash-invest-1{
+            @extend %gbook;
+            margin: 0;
+        }
+        hr{
+            margin-top: 0.7rem;
+        }
+        .dash-btn-mint{
+            margin: 2.8rem auto;
+            display: flex;
+            justify-content: center;
+            width:200px;
+            padding: 8px 0;
+            @extend %btn1;
+        }
+    }
+}
+
+// PAGINA DE PERFIL Y SEGURIDAD
+.dash-btn-perfil{
+    a{
+        width: 155px;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 40px;
+        padding: 7px 1.5rem;
+        margin-right: 1.2rem;
+        outline: none;
+        border-radius: 0.7rem 0.7rem 0 0;
+        @extend %btn1;
+    }
+    .dash-btn-perfil-1{
+        color: $primary;
+        background-color: #fff;
+        
+    }
+    .dash-btn-security-1{
+        img{
+            filter: invert(1);
+        }
+    }
+    .dash-btn-security-2{
+        color: $primary;
+        background-color: #fff;
+        img{
+            filter: invert(1);
+        }
+    }
+    .dash-btn-perfil-2:hover{
+        color: $primary;
+        background-color: #fff;
+            img{
+                filter: invert(1);
+            }
+    }
+    .dash-btn-security-1:hover{
+        color: $primary;
+        background-color: #fff;
+        img{
+            filter: invert(0);
+        }
+    }
+    &-content{
+            background-color: #fff;
+            max-width: 1000px;
+            padding: 1.5rem;
+            label{
+                margin-bottom: 1rem;
+                @extend %gbold;
+            }
+            input{
+                height: 40px;
+                margin-bottom: 1.5rem;
+                font-size: 1.25rem;
+                border: none;
+                background-color: $dash-fondo;
+            }
+            input::placeholder{
+                opacity: .5;
+            }
+            .dash-btn-confirm {
+                width: 115px;
+                margin-top: 1rem;
+                @extend %btn1;
+            }
+    }
+}

@@ -26,7 +26,7 @@
                 <h4 class="dash-name-user">Patrick Matthews</h4>
                 <h4 class="dash-name-rank">Admin</h4>
                 <ul class="dash-menu-general">
-                    <a href="#" class="dash-menu-general-link  d-flex justify-content-between">
+                    <a href="./dash-investment.html" class="dash-menu-general-link-hover  d-flex justify-content-between">
                         <li>
                             <img class="icons-menu-general" src="../images/dash-investment.svg" alt="">
                             <span class="dash-menu-general-text">Investment</span>
@@ -34,7 +34,7 @@
                          <img class="dash-arrow-menu" src="../images/arrow-bottom.svg" alt="">
                         </a>
 
-                    <a href="#" class="dash-menu-general-link-hover d-flex justify-content-between">
+                    <a href="./dash-investor.html" class="dash-menu-general-link-hover d-flex justify-content-between">
                         <li>
                             <img class="icons-menu-general" src="../images/dash-icon-people.svg" alt="">
                             <span class="dash-menu-general-text">Investor</span>
@@ -42,7 +42,7 @@
                          <img class="dash-arrow-menu" src="../images/arrow-bottom.svg" alt="">
                         </a>
 
-                    <a href="#" class="dash-menu-general-link-hover d-flex justify-content-between">
+                    <a href="./dash-perfil.html" class="dash-menu-general-link d-flex justify-content-between">
                         <li>
                             <img class="icons-menu-general" src="../images/dash-setting.svg" alt="">
                             <span class="dash-menu-general-text">Settings</span>
@@ -68,19 +68,57 @@
                         <a href="#" >Dashboard</a>
                     </div>
                     <div class="dash-header-box2">
-                        <a class="dash-header-box2-btn2">
-                            <img src="../images/wallet.svg" alt="Connect Wallet">
-                            Connect Wallet
+                        <a class="dash-header-box2-btn2" href="#">
+                            <span>10 BNB</span>
+                            <span>0x0230221</span>
                         </a>
                     </div>
                 </div>
             </header>
+            <div class="connect-wallet-options">
+                <div class="position-relative connect-wallet-options-div">
+                    <div class="d-flex justify-content-end">
+                        <img id="btn-connect-close" src="../images/close-menu.svg" alt="" class="connect-wallet-options-close">
+                    </div>
+                    <h3 class="text-center">Connect your wallet</h3>
+                    <ul>
+                        <a href="#"><li><img src="../images/wallet1.svg" alt="">Wallet 1</li></a>
+                        <a href="#"><li><img src="../images/metamask.svg" alt="">Metamask</li></a>
+                        <a href="#"><li><img src="../images/wallet-connect.svg" alt="">Walletconnect</li></a>
+                        <a href="#"><li><img src="../images/trust-wallet.svg" alt="">Trust Wallet</li></a>
+
+                    </ul>
+                </div>
+            </div>
             <main class="container-fluid px-0 dash-investment">
-                 
+                <div class="dash-btn-perfil d-flex align-items-center">
+                    <a class="btn btn-primary dash-btn-perfil-1" href="./dash-perfil.html"><img src="../images/icon-perfil.svg" alt="">Profile</a>
+                </div>
+                <form class="dash-btn-perfil-content">
+                    <div class="form-group">
+                      <label for="dash-perfil-name-1">Name</label>
+                      <input type="text" class="form-control" id="dash-perfil-name-1" placeholder="Your user name">
+                    </div>
+                    <div class="form-group">
+                        <label for="dash-perfil-name-2">Last Name</label>
+                        <input type="text" class="form-control" id="dash-perfil-name-2" placeholder="Your name">
+                      </div>
+                    <div class="form-group">
+                        <label for="dash-perfil-email">Email</label>
+                        <input type="email" class="form-control" id="dash-perfil-email" aria-describedby="emailHelp" placeholder="Your email address">
+                    </div>
+                    <div class="form-group mt-4 d-flex flex-column">
+                        <label for="exampleFormControlFile1">Cambiar foto de perfil</label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                      </div>
+                    <div class="d-flex justify-content-end dash-btn-confirm-div">
+                    <button type="submit" class="dash-btn-confirm btn btn-primary mb-2">Confirm</button>
+                    </div>
+                  </form>
             </main>
         </div>
     </div>
-<script src="./js/main.js"></script>
+    <script src="./js/main.js"></script>
 
 </body>
 </html>

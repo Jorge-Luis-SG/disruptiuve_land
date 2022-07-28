@@ -26,23 +26,26 @@
                 <h4 class="dash-name-user">Patrick Matthews</h4>
                 <h4 class="dash-name-rank">Admin</h4>
                 <ul class="dash-menu-general">
-                    <a href="#" class="dash-menu-general-link  d-flex justify-content-between">
-                        <li>
+                    <a href="./dash-investment.html" class="dash-menu-general-link-hover  position-relative d-flex justify-content-between">
+                        <li class=" position-relative ">
                             <img class="icons-menu-general" src="../images/dash-investment.svg" alt="">
                             <span class="dash-menu-general-text">Investment</span>
+                            
                         </li>
                          <img class="dash-arrow-menu" src="../images/arrow-bottom.svg" alt="">
                         </a>
 
-                    <a href="#" class="dash-menu-general-link-hover d-flex justify-content-between">
+                    <a href="./dash-investor.html" class="position-relative  dash-menu-general-link d-flex justify-content-between">
                         <li>
                             <img class="icons-menu-general" src="../images/dash-icon-people.svg" alt="">
                             <span class="dash-menu-general-text">Investor</span>
+                            <div class="dash-notification-invest">1</div>
                         </li>
                          <img class="dash-arrow-menu" src="../images/arrow-bottom.svg" alt="">
                         </a>
 
-                    <a href="#" class="dash-menu-general-link-hover d-flex justify-content-between">
+                    <a href="./dash-perfil.html" class="dash-menu-general-link-hover d-flex justify-content-between">
+
                         <li>
                             <img class="icons-menu-general" src="../images/dash-setting.svg" alt="">
                             <span class="dash-menu-general-text">Settings</span>
@@ -75,19 +78,161 @@
                     </div>
                 </div>
             </header>
+            <div class="connect-wallet-options">
+                <div class="position-relative connect-wallet-options-div">
+                    <div class="d-flex justify-content-end">
+                        <img id="btn-connect-close" src="../images/close-menu.svg" alt="" class="connect-wallet-options-close">
+                    </div>
+                    <h3 class="text-center">Connect your wallet</h3>
+                    <ul>
+                        <a href="#"><li><img src="../images/wallet1.svg" alt="">Wallet 1</li></a>
+                        <a href="#"><li><img src="../images/metamask.svg" alt="">Metamask</li></a>
+                        <a href="#"><li><img src="../images/wallet-connect.svg" alt="">Walletconnect</li></a>
+                        <a href="#"><li><img src="../images/trust-wallet.svg" alt="">Trust Wallet</li></a>
+
+                    </ul>
+                </div>
+            </div>
             <main class="container-fluid px-0 dash-investor">
-                 <div class="row dash-investor-section1">
+                 <!-- SECCION 1 -->
+                 <div class="row dash-investor-section1 justify-content-center">
                     <div class="col-12 col-lg-6 dash-investor-section1-box1">
-                        <div class="dash-investor-section1-box1-total">
-                            <h4 class="dash-investor-section1-box1-total-title"><span>st:</span> 12 ETH</h4>
+                        <div class="dash-investor-section1-box1-total position-relative">
+                            <h4 class="dash-investor-section1-box1-total-title d-flex justify-content-center"><span>Total: </span> 12 ETH</h4>
+                            <div class="dash-notification-invest">1</div>
+                        </div>
+                        <div class="row d-flex justify-content-around dash-investor-section1-box1-boxs">
+                            <div class="col-6 col-lg-6 dash-investor-section1-box1-boxs-box1">
+                                <img src="../images/dash-investor1.png" alt="">
+                                <p>Lorem ipsum dolor sit amet, consetetur</p>
+                            </div>
+                            <div class="col-6 col-lg-6 d-flex flex-column align-items-end justify-content-center dash-investor-section1-box1-boxs-box2">
+                                <img src="../images/dash-investor2.png" alt="">
+                                <p>Lorem ipsum dolor sit amet, consetetur</p>
+                            </div>
+                        </div>
+                        <div class="dash-investor-section1-box1-btn d-flex justify-content-center">
+                            <a class="btn btn-primary dash-banner-investment-box1-btn-2" href="dash-more-info.html">See more</a>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 dash-investor-section1-box2"></div>
+                    <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end dash-investor-section1-box2 ">
+                        <div class="dash-investor-section1-box2-grafica d-flex flex-column justify-content-center">
+                            <h6>Sales Figures</h6>
+                            <canvas id="line-chart" width="450" height="270"></canvas>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- SECCION 2 -->
+                 <div class="dash-investor-section2 ">
+                    <div class="row justify-content-center dash-investor-section2-box1 ">
+                            <div class="col-6 col-md-4 col-xxl-2 dash-investor-section2-box1-boxs">
+                                <h4>Current <img src="../images/dash-current.svg" alt=""> </h4>
+                                <p>$2,439.28</p>
+                            </div>
+                            <div class="col-6 col-md-4 col-xxl-2 dash-investor-section2-box1-boxs">
+                                <h4>Previous <img src="../images/dash-previous.svg" alt=""> </h4>
+                                <p>$1,135.88</p>
+                            </div>
+                            <div class="col-6 col-md-4 col-xxl-2 dash-investor-section2-box1-boxs">
+                                <h4>Capital <img src="../images/dash-capital.svg" alt=""> </h4>
+                                <p>12.229 ETH</p>
+                            </div>
+                            <div class="col-6 col-md-4 col-xxl-2 dash-investor-section2-box1-boxs">
+                                <h4>Status</h4>
+                                <p class="dash-investor-green-text">+$422,73</p>
+                            </div>
+                            <div class="col-6 col-md-4 col-xxl-2 dash-investor-section2-box1-boxs">
+                                <h4>Today</h4>
+                                <p class="dash-investor-green-text">+3,24%</p>
+                            </div>
+                    </div>
+                 </div>
+
+                  <!-- SECCION 3 -->
+                  <div class="row align-items-center dash-investor-section3">
+                    <div class="col-12 col-sm-4 col-lg-3 d-flex justify-content-center dash-investor-section3-box1">
+                        <h2>ORGANIC <br>FARM</h2>
+                    </div>
+                    <div class="col-12 col-sm-8 col-lg-9 dash-investor-section3-box2">
+                        <img src="../images/portfolio3.png" alt="">
+                    </div>
+                 </div>
+
+                  <!-- BARRA DE PROGRESO-->
+                  <div class="dash-investor-barra-progress">
+                    <div class="dash-investor-barra-progress-content d-flex align-items-center justify-content-start">
+                        <div class="barra-progress"></div>
+                        <span class="barra-progress-number">30%</span>
+                    </div>
+                 </div>
+
+                 <!-- Project DE PROGRESO-->
+                 <div class="dash-investor-barra-progress-texto">
+                    <div class="d-flex flex-column align-items-center justify-content-center dash-investor-barra-progress-texto-content ">
+                         <h4>Project progress</h4>
+                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    </div>  
+                 </div>
+
+                 <div class="list-transactions-history">
+                    <div class="dash-transactions">
+                        <div class="d-flex justify-content-center dash-transactions-title position-relative">
+                           <h4>Transaction History</h4>
+                           <a id="view-more-button" class="position-absolute"><img src="../images/dash-points.svg" alt=""></a>
+                        </div>
+                        <div class="tables">
+                            <table>
+                                <tr>
+                                    <th>Payment Number</th>
+                                    <th>Date & time</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                </tr>
+                                <tr>
+                                    <td data-label="PAYMENT NUMBER"><img class="dash-check-investor" src="./../images/check1.svg" alt="">Payment from #10321</td>
+                                    <td data-label="DATE & TIME">Mar 21, 2019, 3:30pm</td>
+                                    <td data-label="AMOUNT">+ $250.00</td>
+                                    <td data-label="STATUS" class="dash-status-trasactions-1" ><span>Completed</span></td>
+                                </tr>
+                                <tr>
+                                    <td data-label="PAYMENT NUMBER"><img class="dash-check-investor" src="./../images/check2.svg" alt="">Process refund to #00910</td>
+                                    <td data-label="DATE & TIME">Mar 21, 2019, 3:30pm</td>
+                                    <td data-label="AMOUNT">-$16.50/td>
+                                    <td data-label="STATUS" class="dash-status-trasactions-1" ><span>Completed</span></td>
+                                </tr>
+                                <tr>
+                                    <td data-label="PAYMENT NUMBER"><img class="dash-check-investor" src="./../images/check3.svg" alt="">Process delivery to #44333</td>
+                                    <td data-label="DATE & TIME">Mar 21, 2019, 3:30pm</td>
+                                    <td data-label="AMOUNT">3 items</td>
+                                    <td data-label="STATUS" class="dash-status-trasactions-2" ><span>For Pickup</span></td>
+                                </tr>
+                                <tr>
+                                    <td data-label="PAYMENT NUMBER"><img class="dash-check-investor" src="./../images/check1.svg" alt="">Payment from #023328</td>
+                                    <td data-label="DATE & TIME">Mar 21, 2019, 3:30pm</td>
+                                    <td data-label="AMOUNT">+ $250.00</td>
+                                    <td data-label="STATUS" class="dash-status-trasactions-1" ><span>Completed</span></td>
+                                </tr>
+                                <tr>
+                                    <td data-label="PAYMENT NUMBER"><img class="dash-check-investor" src="./../images/check4.svg    " alt="">Payment failed from #087651</td>
+                                    <td data-label="DATE & TIME">Mar 21, 2019, 3:30pm</td>
+                                    <td data-label="AMOUNT">+ $250.00</td>
+                                    <td data-label="STATUS" class="dash-status-trasactions-3" ><span>Declined</span></td>
+                                </tr>
+                                
+                                
+                            </table>
+                        </div>
+                        <div class="dash-transactions-view text-center">
+                            <a href="#">View All transactions</a>
+                            
+                         </div>
+                    </div>
                  </div>
             </main>
         </div>
     </div>
-<script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js" integrity="sha512-OD9Gn6cAUQezuljS6411uRFr84pkrCtw23Hl5TYzmGyD0YcunJIPSBDzrV8EeCiFxGWWvtJOfVo5pOgB++Jsag==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
 
 </body>
 </html>

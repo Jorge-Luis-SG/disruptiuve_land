@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="check1" transform="translate(-393 -1453)">
+    <path id="PP" d="M16,0A16,16,0,1,1,0,16,16,16,0,0,1,16,0Z" transform="translate(393 1453)" fill="#7dd61d"/>
+    <path id="Shape" d="M1.136,2.648A.667.667,0,1,0,.2,3.6L4.081,7.44A.667.667,0,0,0,5.054,7.4L10.5,1.1A.667.667,0,0,0,9.5.231L4.513,5.991Z" transform="translate(403.667 1465)" fill="#fff"/>
+  </g>
+</svg>

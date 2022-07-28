@@ -26,7 +26,7 @@
                 <h4 class="dash-name-user">Patrick Matthews</h4>
                 <h4 class="dash-name-rank">Admin</h4>
                 <ul class="dash-menu-general">
-                    <a href="#" class="dash-menu-general-link  d-flex justify-content-between">
+                    <a href="./dash-investment.html" class="dash-menu-general-link-hover  d-flex justify-content-between">
                         <li>
                             <img class="icons-menu-general" src="../images/dash-investment.svg" alt="">
                             <span class="dash-menu-general-text">Investment</span>
@@ -34,7 +34,7 @@
                          <img class="dash-arrow-menu" src="../images/arrow-bottom.svg" alt="">
                         </a>
 
-                    <a href="#" class="dash-menu-general-link-hover d-flex justify-content-between">
+                    <a href="./dash-investor.html" class="dash-menu-general-link d-flex justify-content-between">
                         <li>
                             <img class="icons-menu-general" src="../images/dash-icon-people.svg" alt="">
                             <span class="dash-menu-general-text">Investor</span>
@@ -42,7 +42,7 @@
                          <img class="dash-arrow-menu" src="../images/arrow-bottom.svg" alt="">
                         </a>
 
-                    <a href="#" class="dash-menu-general-link-hover d-flex justify-content-between">
+                    <a href="./dash-perfil.html" class="dash-menu-general-link-hover d-flex justify-content-between">
                         <li>
                             <img class="icons-menu-general" src="../images/dash-setting.svg" alt="">
                             <span class="dash-menu-general-text">Settings</span>
@@ -68,19 +68,74 @@
                         <a href="#" >Dashboard</a>
                     </div>
                     <div class="dash-header-box2">
-                        <a class="dash-header-box2-btn2">
+                        <a class="dash-header-box2-btn2" href="#">
                             <img src="../images/wallet.svg" alt="Connect Wallet">
                             Connect Wallet
                         </a>
                     </div>
                 </div>
             </header>
+            <div class="connect-wallet-options">
+                <div class="position-relative connect-wallet-options-div">
+                    <div class="d-flex justify-content-end">
+                        <img id="btn-connect-close" src="../images/close-menu.svg" alt="" class="connect-wallet-options-close">
+                    </div>
+                    <h3 class="text-center">Connect your wallet</h3>
+                    <ul>
+                        <a href="#"><li><img src="../images/wallet1.svg" alt="">Wallet 1</li></a>
+                        <a href="#"><li><img src="../images/metamask.svg" alt="">Metamask</li></a>
+                        <a href="#"><li><img src="../images/wallet-connect.svg" alt="">Walletconnect</li></a>
+                        <a href="#"><li><img src="../images/trust-wallet.svg" alt="">Trust Wallet</li></a>
+
+                    </ul>
+                </div>
+            </div>
             <main class="container-fluid px-0 dash-investment">
-                 
+                <div class="dash-banner-more-info">
+                            <h3 class="text-center">ORGANIC FARM</h3>
+                </div>
+                <div class="row mt-2 mt-lg-5 dash-more-info-section1 justify-content-center justify-content-lg-between">
+                    <div class="col-12 col-lg-6 dash-more-info-section1-box1 ">
+                        <div class="dash-more-info-arrows d-flex justify-content-between">
+                            <a href="#"><img class="dash-arrow-left" src="../images/arrow-bottom.svg" alt=""></a>
+                            <span>2022</span>
+                            <a href="#"><img class="dash-arrow-right" src="../images/arrow-bottom.svg" alt=""></a>
+                        </div>
+                        <div class="dash-more-info-section1-box1-grafica d-flex justify-content-center">
+                            <canvas id="doughnut-chart" width="450" height="270"></canvas>
+                            <div>
+                                <ul id="data-status-dash">
+                                    <li><div id="data-status-dash-blue"></div>Amet: <span>2.1K</span></li>
+                                    <li><div id="data-status-dash-green"></div>Sit: <span>1.9KK</span><</li>
+                                    <li><div id="data-status-dash-orange"></div>Ipsum: <span>1K</span><</li>
+                                    <li><div id="data-status-dash-yellow"></div>Lorem: <span>15.7K</span><</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end dash-more-info-section1-box2">
+                        <div class="dash-more-info-section1-box2-grafica d-flex flex-column justify-content-center">
+                            <h6>Sales Figures</h6>
+                            <canvas id="line-chart" width="450" height="270"></canvas>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="row mt-5 dash-more-info justify-content-center justify-content-lg-between">
+                    <div class="col-12 col-lg-6 d-flex flex-column align-items-center justify-content-center dash-more-info-section2-box1">
+                        <div class="dash-more-info-section2-box1-content">
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam.</p>
+                            <a href="#" class="btn btn-primary"><img src="../images/pdf-icon.svg" alt=""> Download pdf</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 dash-more-info-section2-box2">
+                        <video src="#"  poster="../images/investment.png"></video>
+                    </div>
+                 </div>
             </main>
         </div>
     </div>
-<script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js" integrity="sha512-OD9Gn6cAUQezuljS6411uRFr84pkrCtw23Hl5TYzmGyD0YcunJIPSBDzrV8EeCiFxGWWvtJOfVo5pOgB++Jsag==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="./js/main.js"></script>
 
 </body>
 </html>
