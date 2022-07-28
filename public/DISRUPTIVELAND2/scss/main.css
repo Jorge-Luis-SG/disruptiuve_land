@@ -10742,7 +10742,7 @@ a {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.06rem;
   letter-spacing: 1px;
   font-family: "Gotham";
   font-weight: 300;
@@ -10758,13 +10758,13 @@ p {
   }
 }
 
-.dash-btn-perfil-content label, .dash-invest-content .mint-set-dash-invest-box1 span, .dash-invest-content h3, .dash-invest-content .h3, .dash-invest-organic h3, .dash-invest-organic .h3, .dash-transactions-view a, .dash-transactions-title h4, .dash-transactions-title .h4, .dash-more-info-arrows span, .dash-banner-more-info h3, .dash-banner-more-info .h3, .dash-investor-barra-progress-texto-content h4, .dash-investor-barra-progress-texto-content .h4, .dash-investor-section2-box1-boxs p, .dash-investor-section2-box1-boxs h4, .dash-investor-section2-box1-boxs .h4, .dash-investor-section1-box2-grafica h6, .dash-investor-section1-box2-grafica .h6, .dash-investment-section-cards-box .sold-investment, .dash-investment .dash-banner-investment-box1-title, .dash-investment .dash-banner-investment-box1-feature, header .dash-header-box1 a, .menu-lateral-globlal-content .dash-name-user, .menu-lateral-globlal-content .dash-header-dashboard, .dashboard-home-section1-box2-title, .wallet-options-active.connect-wallet-options .connect-wallet-options-div h3, .wallet-options-active.connect-wallet-options .connect-wallet-options-div .h3, .dash-investment-section-cards-box-item h4, .dash-investment-section-cards-box-item .h4, .dashboard-home-section1-box1-carousel-container-list-item h4, .dashboard-home-section1-box1-carousel-container-list-item .h4, .dash-investor-barra-progress-content .barra-progress-number, .dash-investor-section3-box1 h2, .dash-investor-section3-box1 .h2, .dashboard-home-section1-box1 h3, .dashboard-home-section1-box1 .h3 {
+.dash-btn-perfil-content label, .dash-invest-content .mint-set-dash-invest-box1 span, .dash-invest-content h3, .dash-invest-content .h3, .dash-invest-organic h3, .dash-invest-organic .h3, .dash-more-info-section1-box1-grafica .grafica-title-dash h3, .dash-more-info-section1-box1-grafica .grafica-title-dash .h3, .dash-transactions-view a, .dash-transactions-title h4, .dash-transactions-title .h4, .dash-more-info-arrows span, .dash-banner-more-info h3, .dash-banner-more-info .h3, .dash-investor-barra-progress-texto-content h4, .dash-investor-barra-progress-texto-content .h4, .dash-investor-section2-box1-boxs p, .dash-investor-section2-box1-boxs h4, .dash-investor-section2-box1-boxs .h4, .dash-investor-section1-box2-grafica h6, .dash-investor-section1-box2-grafica .h6, .dash-investment-section-cards-box .sold-investment, .dash-investment .dash-banner-investment-box1-title, .dash-investment .dash-banner-investment-box1-feature, header .dash-header-box1 a, .menu-lateral-globlal-content .dash-name-user, .menu-lateral-globlal-content .dash-header-dashboard, .dashboard-home-section1-box2-title, .wallet-options-active.connect-wallet-options .connect-wallet-options-div h3, .wallet-options-active.connect-wallet-options .connect-wallet-options-div .h3, .dash-investment-section-cards-box-item h4, .dash-investment-section-cards-box-item .h4, .dashboard-home-section1-box1-carousel-container-list-item h4, .dashboard-home-section1-box1-carousel-container-list-item .h4, .dash-investor-barra-progress-content .barra-progress-number, .dash-investor-section3-box1 h2, .dash-investor-section3-box1 .h2, .dashboard-home-section1-box1 h3, .dashboard-home-section1-box1 .h3 {
   font-family: "Gotham";
   font-weight: bold;
   font-size: 1.2rem;
 }
 
-.dash-invest-content .total-mint-dash-invest-1, .dash-invest-content .mint-set-dash-invest2-box1 select, .dash-invest-content-data, .tables > table > tbody > tr td, .menu-lateral-globlal-content .dash-menu-general .dash-menu-general-text, .menu-lateral-globlal-content .dash-name-rank, .dashboard-home-section1-box1 h5, .dashboard-home-section1-box1 .h5, .wallet-options-active.connect-wallet-options .connect-wallet-options-div ul li, .dash-investment-section-cards-box-item .dashboard-invest-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-invest-btn, .dash-investment-section-cards-box-item .dashboard-more-info-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-more-info-btn, .dash-btn-perfil-content .dash-btn-confirm, .dash-btn-perfil a, .dash-invest-content .dash-btn-mint, .dash-invest-content .mint-set-dash-invest-box2 a, .dash-more-info-section2-box1 a, .dash-investor-section1-box1-btn a, .dash-investor-section1-box1-total-title, .dash-investment .dash-banner-investment-box1-btn-2, .dash-investment .dash-banner-investment-box1-btn-1, header .dash-header-box2-btn2, .dashboard-home-section1-box2 .btn {
+.dash-invest-content .total-mint-dash-invest-1, .dash-invest-content .mint-set-dash-invest2-box1 select, .dash-invest-content-data, .dash-more-info-section1-box1-grafica #data-status-dash li, .dash-more-info-section1-box1-grafica .grafica-title-dash p, .tables > table > tbody > tr td, .menu-lateral-globlal-content .dash-menu-general .dash-menu-general-text, .menu-lateral-globlal-content .dash-name-rank, .dashboard-home-section1-box1 h5, .dashboard-home-section1-box1 .h5, .wallet-options-active.connect-wallet-options .connect-wallet-options-div ul li, .dash-investment-section-cards-box-item .dashboard-invest-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-invest-btn, .dash-investment-section-cards-box-item .dashboard-more-info-btn, .dashboard-home-section1-box1-carousel-container-list-item .dashboard-home-carousel .dashboard-more-info-btn, .dash-btn-perfil-content .dash-btn-confirm, .dash-btn-perfil a, .dash-invest-content .dash-btn-mint, .dash-invest-content .mint-set-dash-invest-box2 a, .dash-more-info-section2-box1 a, .dash-investor-section1-box1-btn a, .dash-investor-section1-box1-total-title, .dash-investment .dash-banner-investment-box1-btn-2, .dash-investment .dash-banner-investment-box1-btn-1, header .dash-header-box2-btn2, .dashboard-home-section1-box2 .btn {
   font-family: "Gotham";
   font-weight: normal;
   font-size: 1.2rem;
@@ -12121,20 +12121,106 @@ header .dash-header-box2-btn2 span:first-child {
   }
 }
 .dash-more-info-section1-box1 {
-  max-width: 580px;
+  max-width: 600px;
   background: #fff;
   border-radius: 1rem;
   padding: 2rem 3rem;
 }
+@media screen and (max-width: 1200px) {
+  .dash-more-info-section1-box1 {
+    margin-top: 3.5rem;
+  }
+}
 .dash-more-info-section1-box1-grafica {
-  max-width: 400px;
+  max-width: 450px;
+  min-width: 350px;
   margin: auto;
+  padding: 2.5rem 0rem 2rem;
+}
+@media screen and (max-width: 650px) {
+  .dash-more-info-section1-box1-grafica {
+    flex-direction: column !important;
+    align-items: center;
+    min-width: 100%;
+    max-width: 320px;
+  }
+}
+.dash-more-info-section1-box1-grafica .grafica-title-dash {
+  margin-top: 22%;
+  transform: translateX(-55px);
+  text-align: center;
+}
+@media screen and (max-width: 650px) {
+  .dash-more-info-section1-box1-grafica .grafica-title-dash {
+    margin-top: -31%;
+    transform: translateX(0px);
+  }
+}
+@media screen and (max-width: 450px) {
+  .dash-more-info-section1-box1-grafica .grafica-title-dash {
+    margin-top: -50%;
+    transform: translateX(0px);
+  }
+}
+.dash-more-info-section1-box1-grafica .grafica-title-dash h3, .dash-more-info-section1-box1-grafica .grafica-title-dash .h3 {
+  color: #171725;
+  font-size: 3.2rem;
+}
+@media screen and (max-width: 650px) {
+  .dash-more-info-section1-box1-grafica .grafica-title-dash h3, .dash-more-info-section1-box1-grafica .grafica-title-dash .h3 {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .dash-more-info-section1-box1-grafica .grafica-title-dash p {
+    font-size: 0.9rem;
+  }
+}
+.dash-more-info-section1-box1-grafica #data-status-dash {
+  padding: 0;
+  width: 125px;
+}
+@media screen and (max-width: 650px) {
+  .dash-more-info-section1-box1-grafica #data-status-dash {
+    margin-top: 4rem;
+  }
+}
+.dash-more-info-section1-box1-grafica #data-status-dash-blue {
+  background-color: #0062FF;
+}
+.dash-more-info-section1-box1-grafica #data-status-dash-green {
+  background-color: #3DD598;
+}
+.dash-more-info-section1-box1-grafica #data-status-dash-orange {
+  background-color: #FF974A;
+}
+.dash-more-info-section1-box1-grafica #data-status-dash-yellow {
+  background-color: #FFC542;
+}
+.dash-more-info-section1-box1-grafica #data-status-dash li {
+  display: flex;
+  align-items: center;
+}
+.dash-more-info-section1-box1-grafica #data-status-dash li div {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin-right: 0.8rem;
+}
+.dash-more-info-section1-box1-grafica #data-status-dash li span {
+  font-weight: bold;
+  margin-left: 0.5rem;
 }
 .dash-more-info-section1-box2 {
   max-width: 580px;
   background: #fff;
   border-radius: 1rem;
   padding: 1rem 3rem;
+}
+@media screen and (max-width: 1200px) {
+  .dash-more-info-section1-box2 {
+    margin-top: 3.5rem;
+  }
 }
 .dash-more-info-section1-box2-grafica {
   max-width: 400px;

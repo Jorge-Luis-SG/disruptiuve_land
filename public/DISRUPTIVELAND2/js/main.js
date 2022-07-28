@@ -75,7 +75,7 @@ new Chart(document.getElementById("line-chart"), {
       {
         data: [340,360,290,350,500,400],
         label: " ",
-        borderColor: "#3e95cd",
+        borderColor: "#0062FF",
         fill: false
       },
       {

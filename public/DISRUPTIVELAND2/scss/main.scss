@@ -825,10 +825,7 @@ header{
                 h6{
                     @extend %gbold;
                 }
-                .data-status-dash{
-                    padding: 0;
-                    width: 110px;
-                }
+                
                 
             }
             
@@ -1105,13 +1102,88 @@ header{
 
 .dash-more-info-section1{
     &-box1{
-        max-width: 580px;
+        max-width: 600px;
         background: #fff;
         border-radius: 1rem;
         padding: 2rem 3rem;
+        @media screen and(max-width:1200px){
+            margin-top: 3.5rem;
+        }
         &-grafica{
-            max-width: 400px;
+            max-width: 450px;
+            min-width: 350px;
             margin: auto;
+            padding: 2.5rem 0rem 2rem;
+            @media screen and(max-width:650px){
+                flex-direction: column !important;
+                align-items: center;
+                min-width: 100%;
+                max-width: 320px;
+            }
+            .grafica-title-dash{
+                margin-top: 22%;
+                transform: translateX(-55px);
+                text-align: center;
+                @media screen and(max-width:650px){
+                    margin-top: -31%;
+                    transform: translateX(0px);
+                }
+                @media screen and(max-width:450px){
+                    margin-top: -50%;
+                    transform: translateX(0px);
+                }
+                 
+                h3{
+                    color: #171725;
+                    font-size: 3.2rem;
+                    @extend %gbold;
+                    @media screen and(max-width:650px){
+                        font-size: 2.2rem;
+                    }
+                    
+                }
+                p{
+                    @extend %gbook;
+                    @media screen and(max-width:650px){
+                        font-size: .9rem;
+                    }
+                }
+                
+            }
+            #data-status-dash{
+                padding: 0;
+                width: 125px;
+                @media screen and(max-width:650px){
+                    margin-top: 4rem;
+                }
+                &-blue{
+                    background-color: #0062FF;
+                }
+                &-green{
+                    background-color: #3DD598;
+                }
+                &-orange{
+                    background-color: #FF974A;
+                }
+                &-yellow{
+                    background-color: #FFC542;
+                }
+                li{
+                    display: flex;
+                    align-items: center;
+                    @extend %gbook;
+                    div{
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 5px;
+                        margin-right: .8rem;
+                    }
+                    span{
+                        font-weight: bold;
+                        margin-left: 0.5rem;
+                    }
+                }
+            }
         }
     }
     &-box2{
@@ -1119,6 +1191,9 @@ header{
         background: #fff;
         border-radius: 1rem;
         padding: 1rem 3rem;
+        @media screen and(max-width:1200px){
+            margin-top: 3.5rem;
+        }
         &-grafica{
             max-width: 400px;
             width: 90%;
@@ -1277,7 +1352,6 @@ header{
         }
     }
 }
-
 // PAGINA DE PERFIL Y SEGURIDAD
 .dash-btn-perfil{
     a{
