@@ -11125,8 +11125,8 @@ body {
 }
 
 .wallet-options-active.connect-wallet-options {
-  background-color: rgba(255, 255, 255, 0.4392156863);
-  backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(7.5px);
   position: fixed;
   width: 100%;
   height: 100vh;
@@ -11137,7 +11137,7 @@ body {
   align-items: center;
 }
 .wallet-options-active.connect-wallet-options .connect-wallet-options-div {
-  background-color: rgba(255, 255, 255, 0.5647058824);
+  background-color: rgba(255, 255, 255, 0.8);
   max-width: 310px;
   width: 100%;
   margin: 0 auto;
@@ -12007,13 +12007,21 @@ header .dash-header-box2-btn2 span:first-child {
 }
 
 .dash-transactions {
-  padding: 2.5rem 4rem;
+  padding: 0 4rem 2.5rem;
   margin-top: 4rem;
 }
 @media screen and (max-width: 550px) {
   .dash-transactions {
     padding: 2.5rem 1rem;
   }
+}
+.dash-transactions-title {
+  display: flex;
+  align-items: center;
+  height: 65px;
+}
+.dash-transactions-title h4, .dash-transactions-title .h4 {
+  margin: 0;
 }
 .dash-transactions-title #view-more-button {
   right: 0;
@@ -12120,8 +12128,13 @@ header .dash-header-box2-btn2 span:first-child {
     float: left;
   }
 }
+.dash-more-info-section1 {
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
 .dash-more-info-section1-box1 {
-  max-width: 600px;
+  max-width: 48%;
   background: #fff;
   border-radius: 1rem;
   padding: 2rem 3rem;
@@ -12129,6 +12142,7 @@ header .dash-header-box2-btn2 span:first-child {
 @media screen and (max-width: 1200px) {
   .dash-more-info-section1-box1 {
     margin-top: 3.5rem;
+    max-width: 100%;
   }
 }
 .dash-more-info-section1-box1-grafica {
@@ -12180,6 +12194,16 @@ header .dash-header-box2-btn2 span:first-child {
   padding: 0;
   width: 125px;
 }
+@media screen and (max-width: 1600px) {
+  .dash-more-info-section1-box1-grafica #data-status-dash {
+    transform: translateX(-50px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .dash-more-info-section1-box1-grafica #data-status-dash {
+    transform: translateX(0px);
+  }
+}
 @media screen and (max-width: 650px) {
   .dash-more-info-section1-box1-grafica #data-status-dash {
     margin-top: 4rem;
@@ -12212,14 +12236,15 @@ header .dash-header-box2-btn2 span:first-child {
   margin-left: 0.5rem;
 }
 .dash-more-info-section1-box2 {
-  max-width: 580px;
+  max-width: 48%;
   background: #fff;
   border-radius: 1rem;
-  padding: 1rem 3rem;
+  padding: 2rem 1rem;
 }
 @media screen and (max-width: 1200px) {
   .dash-more-info-section1-box2 {
     margin-top: 3.5rem;
+    max-width: 100%;
   }
 }
 .dash-more-info-section1-box2-grafica {
@@ -12251,15 +12276,22 @@ header .dash-header-box2-btn2 span:first-child {
   margin-right: 0.6rem;
 }
 .dash-more-info-section2-box2 video {
-  max-width: 650px;
   width: 100%;
+}
+
+.row.dash-invest-content-all {
+  justify-content: end;
+}
+@media screen and (max-width: 1400px) {
+  .row.dash-invest-content-all {
+    justify-content: center;
+  }
 }
 
 .dash-invest {
   background-color: rgba(255, 255, 255, 0.3960784314);
   display: flex;
   align-items: center;
-  max-width: 850px;
   min-width: 680px;
 }
 @media screen and (max-width: 1200px) {
@@ -12284,7 +12316,7 @@ header .dash-header-box2-btn2 span:first-child {
     max-width: 350px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   .dash-invest > img {
     transform: translateX(0px);
     position: relative;
@@ -12407,7 +12439,6 @@ header .dash-header-box2-btn2 span:first-child {
 }
 .dash-btn-perfil-content {
   background-color: #fff;
-  max-width: 1000px;
   padding: 1.5rem;
 }
 .dash-btn-perfil-content label {

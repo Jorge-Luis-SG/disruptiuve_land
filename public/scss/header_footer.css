@@ -636,7 +636,7 @@ progress {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 450px) {
   .container-sm, .container {
     max-width: 540px;
   }
@@ -887,7 +887,7 @@ progress {
   --bs-gutter-y: 6rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 450px) {
   .col-sm {
     flex: 1 0 0%;
   }
@@ -1925,7 +1925,7 @@ progress {
   -webkit-overflow-scrolling: touch;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 449.98px) {
   .table-responsive-sm {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -3191,7 +3191,7 @@ textarea.form-control-lg {
   left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 450px) {
   .dropdown-menu-sm-start {
     --bs-position: start;
   }
@@ -3768,7 +3768,7 @@ textarea.form-control-lg {
   overflow-y: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 450px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4203,7 +4203,7 @@ textarea.form-control-lg {
 .card-group > .card {
   margin-bottom: var(--bs-card-group-margin);
 }
-@media (min-width: 576px) {
+@media (min-width: 450px) {
   .card-group {
     display: flex;
     flex-flow: row wrap;
@@ -4801,7 +4801,7 @@ textarea.form-control-lg {
   border-left-width: var(--bs-list-group-border-width);
 }
 
-@media (min-width: 576px) {
+@media (min-width: 450px) {
   .list-group-horizontal-sm {
     flex-direction: row;
   }
@@ -5287,7 +5287,7 @@ textarea.form-control-lg {
   margin: calc(var(--bs-modal-footer-gap) * 0.5);
 }
 
-@media (min-width: 576px) {
+@media (min-width: 450px) {
   .modal {
     --bs-modal-margin: 1.75rem;
     --bs-modal-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -5331,7 +5331,7 @@ textarea.form-control-lg {
   overflow-y: auto;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 449.98px) {
   .modal-fullscreen-sm-down {
     width: 100vw;
     max-width: none;
@@ -5970,7 +5970,7 @@ textarea.form-control-lg {
   --bs-offcanvas-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 449.98px) {
   .offcanvas-sm {
     position: fixed;
     bottom: 0;
@@ -5986,22 +5986,22 @@ textarea.form-control-lg {
     transition: transform 0.3s ease-in-out;
   }
 }
-@media (max-width: 575.98px) and (prefers-reduced-motion: reduce) {
+@media (max-width: 449.98px) and (prefers-reduced-motion: reduce) {
   .offcanvas-sm {
     transition: none;
   }
 }
-@media (max-width: 575.98px) {
+@media (max-width: 449.98px) {
   .offcanvas-sm.showing, .offcanvas-sm.show:not(.hiding) {
     transform: none;
   }
 }
-@media (max-width: 575.98px) {
+@media (max-width: 449.98px) {
   .offcanvas-sm.showing, .offcanvas-sm.hiding, .offcanvas-sm.show {
     visibility: visible;
   }
 }
-@media (max-width: 575.98px) {
+@media (max-width: 449.98px) {
   .offcanvas-sm.offcanvas-start {
     top: 0;
     left: 0;
@@ -6010,7 +6010,7 @@ textarea.form-control-lg {
     transform: translateX(-100%);
   }
 }
-@media (max-width: 575.98px) {
+@media (max-width: 449.98px) {
   .offcanvas-sm.offcanvas-end {
     top: 0;
     right: 0;
@@ -6019,7 +6019,7 @@ textarea.form-control-lg {
     transform: translateX(100%);
   }
 }
-@media (max-width: 575.98px) {
+@media (max-width: 449.98px) {
   .offcanvas-sm.offcanvas-top {
     top: 0;
     right: 0;
@@ -6030,7 +6030,7 @@ textarea.form-control-lg {
     transform: translateY(-100%);
   }
 }
-@media (max-width: 575.98px) {
+@media (max-width: 449.98px) {
   .offcanvas-sm.offcanvas-bottom {
     right: 0;
     left: 0;
@@ -6040,7 +6040,7 @@ textarea.form-control-lg {
     transform: translateY(100%);
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 450px) {
   .offcanvas-sm {
     --bs-offcanvas-height: auto;
     --bs-offcanvas-border-width: 0;
@@ -6715,7 +6715,7 @@ textarea.form-control-lg {
   z-index: 1020;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 450px) {
   .sticky-sm-top {
     position: sticky;
     top: 0;
@@ -8196,7 +8196,7 @@ textarea.form-control-lg {
   visibility: hidden !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 450px) {
   .float-sm-start {
     float: left !important;
   }
@@ -10742,7 +10742,7 @@ a {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.06rem;
   letter-spacing: 1px;
   font-family: "Gotham";
   font-weight: 300;
@@ -10849,7 +10849,7 @@ body {
 
 @font-face {
   font-family: "Gotham";
-  src: url("../fonts/Gotham-Black.eot");
+  src: url("../fonts/Gotham-Bold.eot");
   src: url("../fonts/Gotham-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Black.woff2") format("woff2"), url("../fonts/Gotham-Black.woff") format("woff"), url("../fonts/Gotham-Black.ttf") format("truetype"), url("../fonts/Gotham-Black.svg#Gotham-Black") format("svg");
   font-weight: 700;
   font-style: normal;
@@ -11099,6 +11099,10 @@ body {
   .header-container {
     padding: 0 30px;
   }
+}
+.header-container-box1 {
+  flex-direction: row-reverse !important;
+  display: flex;
 }
 .header-container-box1 img {
   max-width: 200px;

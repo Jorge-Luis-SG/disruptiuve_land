@@ -231,6 +231,42 @@ window.addEventListener('load', function(){
   })
 })
 
+window.addEventListener('load', function(){
+  new Glider(document.querySelector('.carousel-container-mint-list'), {
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      draggable: true,
+      arrows: {
+        prev: '.carousel-container-mint-return',
+        next: '.carousel-container-mint-next'
+      },
+      responsive: [
+          {
+            // screens greater than >= 775px
+            breakpoint: 850,
+            settings: {
+              // Set to `auto` and provide item width to adjust to viewport
+              slidesToShow: 5,
+              slidesToScroll: 1
+              // itemWidth: 150,
+            }
+          },{
+            // screens greater than >= 1024px
+            breakpoint: 1400,
+            settings: {
+              slidesToShow: 5,
+              slidesToScroll: 1
+              // itemWidth: 150,
+            }
+          }
+        ]
+  })
+})
+// LEER MAS EN HOME
+
+
+
+
 
 //ACORDION INVESTMENT
 const titleAcordion = document.querySelectorAll('.investment-section3-accordion-item-title');
@@ -299,12 +335,13 @@ let portfolioGrid3 = document.getElementById('filter-3');
 
 
 portfolioGrid1.onclick =() =>{
-  console.log("HOLA")
   portolioAll.forEach((a, i)=>{
     portfolioGrid1.classList.add('portfolio-filter-all')
     porfolio1[i].classList.remove('portfolio-filter-all');
-  })
+  });
 }
+
+
  
 
 

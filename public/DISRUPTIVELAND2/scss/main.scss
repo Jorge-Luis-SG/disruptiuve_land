@@ -5,8 +5,8 @@
     display: none;
 }
 .wallet-options-active.connect-wallet-options{
-    background-color: #ffffff70;
-    backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(7.5px);
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
         .connect-wallet-options-div{
-        background-color: #ffffff90;
+        background-color: rgba(255, 255, 255, 0.8);
         max-width: 310px;
         width: 100%;
         margin: 0 auto;
@@ -975,14 +975,18 @@ header{
     background-color: $dash-fondoWhite65;
 }
 .dash-transactions{
-    padding: 2.5rem 4rem;
+    padding: 0 4rem 2.5rem;
     margin-top: 4rem;
     @media screen and (max-width:550px){
         padding: 2.5rem 1rem;
 
     }
     &-title{
+        display: flex;
+        align-items: center;
+        height: 65px;
         h4{
+            margin: 0;
             @extend %gbold; 
         }
         #view-more-button{
@@ -1101,13 +1105,17 @@ header{
 }
 
 .dash-more-info-section1{
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
     &-box1{
-        max-width: 600px;
+        max-width: 48%;
         background: #fff;
         border-radius: 1rem;
         padding: 2rem 3rem;
         @media screen and(max-width:1200px){
             margin-top: 3.5rem;
+            max-width: 100%;
         }
         &-grafica{
             max-width: 450px;
@@ -1153,9 +1161,16 @@ header{
             #data-status-dash{
                 padding: 0;
                 width: 125px;
+                @media screen and(max-width:1600px){
+                    transform: translateX(-50px);
+                }
+                @media screen and(max-width:1200px){
+                    transform: translateX(0px);
+                }
                 @media screen and(max-width:650px){
                     margin-top: 4rem;
                 }
+                
                 &-blue{
                     background-color: #0062FF;
                 }
@@ -1187,12 +1202,13 @@ header{
         }
     }
     &-box2{
-        max-width: 580px;
+        max-width: 48%;
         background: #fff;
         border-radius: 1rem;
-        padding: 1rem 3rem;
+        padding: 2rem 1rem;
         @media screen and(max-width:1200px){
             margin-top: 3.5rem;
+            max-width: 100%;
         }
         &-grafica{
             max-width: 400px;
@@ -1227,18 +1243,24 @@ header{
     }
     &-box2{
         video{
-            max-width: 650px;
             width: 100%;
         }
     }
 }
 
 // PAGINA DE INVEST
+.row.dash-invest-content-all{
+
+    justify-content:end;
+    @media screen and (max-width:1400px){
+    justify-content: center;
+}
+
+}
 .dash-invest{
     background-color: $dash-fondoWhite65;
     display: flex;
     align-items: center;
-    max-width: 850px;
     min-width: 680px;
     @media screen and (max-width:1200px){
         min-width: 300px;
@@ -1260,7 +1282,7 @@ header{
             transform: translateX(-240px);
             max-width: 350px;
         }
-        @media screen and (max-width:1200px){
+        @media screen and (max-width:1400px){
             transform: translateX(0px);
             position: relative;
             max-width: 100%;
@@ -1280,6 +1302,9 @@ header{
             max-width: 600px;
             padding: 0rem;
 
+        }
+        &-all{
+           
         }
         h3{
             font-size: 2.2rem;
@@ -1402,7 +1427,6 @@ header{
     }
     &-content{
             background-color: #fff;
-            max-width: 1000px;
             padding: 1.5rem;
             label{
                 margin-bottom: 1rem;

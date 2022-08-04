@@ -95,6 +95,14 @@
  }
 
 
+ .home-read-more-active{
+    display: block !important;
+ }
+ .read-mode-home-active-load{
+    img{
+        transform: rotateZ(180deg);
+    }
+ }
 .home-section-2{
     margin-bottom: 13rem;
     &-box1{
@@ -124,8 +132,15 @@
         &-btn{
             background-color: transparent;
             color: $primary;
-            border: 1px solid $primary;
+            border: 1.5px solid $border3;
             @extend %btn1;
+            img{
+                transition: all .4s;
+                margin-left: .3rem;
+            }
+        }
+        &-btn:hover > img {
+            filter: invert(0);
         }
     }
     @media screen and (max-width:1000px){
@@ -675,6 +690,10 @@
             @extend %gbold;
         }
         .p-book{
+            &:first-child{
+                max-width: 650px;
+
+            }
             @extend %gbook;
             text-align: start !important;
             @media screen and(max-width:767px){
@@ -1477,7 +1496,7 @@
         }
     }
 }
-
+// PAGINA DE LEARN  
 .learn{
     &-section-1-form{
             @extend %max-width-1;
@@ -1726,3 +1745,197 @@
         transform: scale(1.15);
     }
 }
+
+// PAGINA DE MINT
+
+
+.mint .parallax-content-text-parrafo{
+    max-width: 658px;
+}
+.mint-section1{
+   &-title{
+    text-align: center;
+    @extend %title1;
+    font-size: 3.6rem;
+    }
+    &-descriptions{
+        @extend %descriptions-1;
+        max-width: 700px;
+        margin: 2.5rem auto;
+    }
+    &-btn-mint{
+        margin-bottom: 3rem;
+        width: 180px;
+        @extend %btn1;
+    }
+   
+}
+.mint-section2{
+    &-title{
+        text-align: center;
+        margin: 8rem 0;
+        font-size: 3.5rem;
+        @extend %title1;
+    }
+    img{
+        height: 80px;
+        width: 220px;
+    }
+    &-content{
+        max-width: 1000px;
+        margin: auto;
+        &-boxs{
+            &:first-child{
+                max-width: 247px;
+                h5{
+                    text-align: left;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+            &:last-child{
+                max-width: 247px;
+                h5{
+                    text-align: right;
+                }
+                p{
+                    text-align: center;
+                }
+            }
+            h5{
+                font-size: 1.85rem;
+                text-align: left;
+                margin-bottom: 2rem;
+                @extend %gbold;
+            }
+            @media screen and (max-width:992px){
+                max-width: 350px !important;
+                margin-bottom: 2rem;
+                h5{
+                    font-size: 1.65rem;
+                    text-align: center !important;
+                }
+                p{
+                    text-align: center !important;
+                }
+
+            }
+        }
+    }
+   
+}
+
+.mint-section3{
+    background-image: url(../images/tarjeta-bg.svg);
+    &-content{
+    }
+    &-card{
+        img{
+            min-width: 450px;
+            transform: translate(0);
+        }
+        @media screen and (max-width:1500px){
+            margin: 3rem;
+            img{
+                min-width: auto;
+            }
+        }
+    }
+}
+
+.mint-x1,.mint-x2{
+    width: 320px;
+    z-index: -1;
+    @media screen and (max-width:1000px){
+        width: 290px;
+    }
+    @media screen and (max-width:767px){
+        width: 240px;
+    }
+    @media screen and (max-width:600px){
+        width: 190px;
+    }
+}
+.mint-x1{
+    right: 0;
+    top: -15%;
+}
+.mint-x2{
+    left: 0;
+    top: -50%;
+}
+
+.mint-join-btn,.mint-view-btn{
+    font-weight: bold;
+    padding: 0.6rem 1.5rem;
+    margin-bottom: 2rem;
+    @extend %gbold;
+    
+}
+.mint-join-btn{
+    margin-right: 1.5rem;
+    background-color: transparent;
+    border: 1px solid $primary;
+    color: $primary;
+    img{
+        width: 15px;
+    }
+
+}
+.mint-view-btn{
+    img{
+        width: 13px;
+    }
+}
+
+
+.carouse-mint{
+    max-width: 740px;
+    @media screen and (max-width:1500px){
+        max-width: 100%;
+    }
+        .carousel-container-mint{
+            margin-top: 1.8rem;
+            position: relative;        
+        &-list{
+            overflow: hidden;      
+            max-width: 750px;
+                &-item{
+                    @extend %c-item;
+                }
+        }
+        &-return, &-next{
+            top: calc(50% - 16px);
+            @extend %c-arrows;
+        }
+        &-return:hover, &-next:hover{
+            opacity: 100%
+        }
+        &-return{
+            left: -25px;
+        }
+        &-next{
+            right: -25px;
+        }
+        .glide__slide{
+            filter: blur(0);
+            opacity: 1;
+            }
+            .glide__slide.center{
+            @extend %c-blur-active;
+            }
+        }
+
+
+    }
+    // HR SEPARADADOR 
+    .hr-v1-div.mint-1 >hr{
+        margin: 10rem auto;
+    }
+    .mint-our-team{
+       .p-book{
+        text-align: center !important;
+        max-width: 1300px !important;
+       }
+    }

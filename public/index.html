@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./scss/custom.css?v4">
     <link rel="stylesheet" href="./scss/header_footer.css?v4">
     <link rel="stylesheet" href="./scss/main.css?v4">
-    <link rel="shortcut icon" href="./images/fav-icon.jpg">
+    <link rel="shortcut icon" href="./images/fav-icon.png">
     <title>DISRUPTIVE - HOME</title>
 </head>
 <body>
@@ -29,6 +29,7 @@
                         </li>
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="Investment.html">Investments</a></li>
+                        <li><a href="mint.html">Mint</a></li>
                         <li class="dropdown-menu-li"id="sub-menu-2-li"><a id="sub-menu-2">Learn <img   src="./images/arrow-bottom.svg" alt=""></a>
                             <ul class="dropdown-menu-li-2"> 
                                 <a href="learn.html"><li>FAQ</li></a>
@@ -87,9 +88,9 @@
                 </div>
                 <div class="col-12 col-md-6 home-section-2-box2">
                     <h3 class="home-section-2-box2-title">How it works</h3>
-                    <p class="home-section-2-box2-description">Disruptiveland impulsará proyectos financieramente rentables y atractivos para cada inversor, basándose en estándares éticos y sostenibles a nivel social y ambiental que ayudarán a crear empleo de calidad y desarrollo local en las áreas en las que se ubiquen.<br><br> Se generará riqueza y libertad financiera para los integrantes de la comunidad, lo que nos llevará a dejar un legado a través de cada proyecto. Nuestra empresa tendrá un número limitado de inversores, aceptando solo a las personas que aporten un valor diferenciador, éstas podrán ver su capital depositado en ideas REALES y TANGIBLES como el sector agrícola e industrial, logrando tener una rentabilidad año tras año que combinará los activos tangibles y del mundo cripto a través de Blockchain. Cada uno de los proyectos será dirigido por reconocidos profesionales en cada una de las áreas estratégicas de la compañía, asegurando su sostenibilidad e indudable éxito.
+                    <p class="home-section-2-box2-description">Disruptiveland impulsará proyectos financieramente rentables y atractivos para cada inversor, basándose en estándares éticos y sostenibles a nivel social y ambiental que ayudarán a crear empleo de calidad y desarrollo local en las áreas en las que se ubiquen.<br><br> Se generará riqueza y libertad financiera para los integrantes de la comunidad, lo que nos llevará a dejar un legado a través de cada proyecto. Nuestra empresa tendrá un número limitado de inversores, aceptando solo a las personas que aporten un valor diferenciador, éstas podrán ver su capital depositado en ideas REALES y TANGIBLES como el sector agrícola e industrial, logrando tener una rentabilidad año tras año que combinará los activos tangibles y del mundo cripto a través de Blockchain.<span id="show-more-text-home" style="display: none;"><br><br> Cada uno de los proyectos será dirigido por reconocidos profesionales en cada una de las áreas estratégicas de la compañía, asegurando su sostenibilidad e indudable éxito.</span>
                         </p>
-                    <a href="#" class="btn btn-primary home-section-2-box2-btn">Read More</a>
+                    <a class="btn btn-primary home-section-2-box2-btn" id="read-mode-home">Read More <img src="./images/arrow-read-more.svg" alt=""></a>
                 </div>
         </div>
         <!-- SECCION 3 -->
@@ -228,7 +229,7 @@
         <div class="row home-section-4">
             <div class="col-12 col-md-7 home-section-4-box1">
                 <h3 class="home-section-4-box1-title d-none d-lg-flex">COME FIRST,<br> BE THE BEST<br></h3>
-                <h4 class=" d-none d-lg-flex subtitle">¿Que nos diferenciaen Disruptiveland?</h4>
+                <h4 class=" d-none d-lg-flex subtitle">¿Que nos diferencia en Disruptiveland?</h4>
                 <h3 class="home-section-4-box1-title-movil d-flex d-lg-none">Qualities around DisruptiveLand</h3>
                 <p class="home-section-4-box1-description">Sabemos que cambiaremos el mundo y dejaremos un legado, por eso, siempre estamos de la mano de los mejores empresarios y profesionales del sector tecnológico e industrial, teniendo todos como misión la innovación, sostenibilidad y el desarrollo social. 
                     <br>
@@ -543,6 +544,13 @@
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
     <script src="./js/main.js?v2"></script>
     <script src="./js/header.js?v2"></script>
+    <script>
+        document.getElementById('read-mode-home').onclick =()=>{
+        document.getElementById('show-more-text-home').classList.toggle('home-read-more-active');
+        document.getElementById('read-mode-home').classList.toggle('read-mode-home-active-load');
+
+        }
+    </script>
 
 </body>
 

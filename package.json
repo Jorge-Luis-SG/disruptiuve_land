@@ -1,7 +1,9 @@
 {
   "dependencies": {
     "@glidejs/glide": "^3.5.2",
+    "axios": "^0.27.2",
     "bootstrap": "^5.2.0-beta1",
-    "chart.js": "^2.8.0"
+    "chart.js": "^2.8.0",
+    "medium-api": "^0.0.1"
   }
 }
